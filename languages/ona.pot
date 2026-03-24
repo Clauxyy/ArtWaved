@@ -1,0 +1,5237 @@
+# Copyright (C) 2026 DeoThemes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ona 1.26\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/ona\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-07T12:08:05+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: ona\n"
+
+#. Theme Name of the theme
+#: style.css
+#: inc/admin/theme-admin.php:20
+#: inc/admin/theme-admin.php:279
+#: inc/admin/theme-admin.php:757
+msgid "Ona"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://deothemes.com/freebies/ona-full-site-editing-wordpress-theme/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Ona is a Full Site Editing WordPress theme based on the minimal design style. It comes with many pre-defined block patterns and color scheme styles. Ona includes 18 child themes, 12 of them are free. Header and footer builder allows you easily edit your layout and choose pre-made elements. It's easy to customize colors and fonts via global options. This theme scores 98 on mobile and it is perfect for fast optimized websites that have an instant impact On Core Web Vitals performance. ★ Demo: https://ona.deothemes.com ★"
+msgstr ""
+
+#. Author of the theme
+#: style.css
+#: inc/admin/theme-admin.php:286
+msgid "DeoThemes"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://deothemes.com"
+msgstr ""
+
+#: functions.php:239
+msgid "Processing"
+msgstr ""
+
+#: functions.php:240
+msgid "Finished"
+msgstr ""
+
+#: functions.php:483
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:484
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/admin/theme-admin.php:19
+msgid "Ona Getting Started"
+msgstr ""
+
+#: inc/admin/theme-admin.php:52
+msgid "Main"
+msgstr ""
+
+#: inc/admin/theme-admin.php:59
+msgid "Minimal"
+msgstr ""
+
+#: inc/admin/theme-admin.php:66
+msgid "Creative"
+msgstr ""
+
+#: inc/admin/theme-admin.php:73
+#: inc/patterns/footer-fashion.php:52
+msgid "Travel"
+msgstr ""
+
+#: inc/admin/theme-admin.php:80
+msgid "Environmental"
+msgstr ""
+
+#: inc/admin/theme-admin.php:87
+msgid "Business"
+msgstr ""
+
+#: inc/admin/theme-admin.php:94
+msgid "Magazine"
+msgstr ""
+
+#: inc/admin/theme-admin.php:101
+msgid "Online Store"
+msgstr ""
+
+#: inc/admin/theme-admin.php:108
+#: inc/patterns/pro/header-recipes.php:47
+msgid "Recipes"
+msgstr ""
+
+#: inc/admin/theme-admin.php:115
+msgid "Health"
+msgstr ""
+
+#: inc/admin/theme-admin.php:122
+#: inc/patterns/pro/general-hero-coffee-shop.php:15
+msgid "Coffee Shop"
+msgstr ""
+
+#: inc/admin/theme-admin.php:129
+#: inc/patterns/footer-fashion.php:53
+msgid "Fashion"
+msgstr ""
+
+#: inc/admin/theme-admin.php:136
+msgid "Agency"
+msgstr ""
+
+#: inc/admin/theme-admin.php:143
+msgid "Startup"
+msgstr ""
+
+#: inc/admin/theme-admin.php:150
+#: inc/patterns/footer-environmental.php:74
+#: inc/patterns/header-business.php:23
+#: inc/patterns/header-centered-logo.php:36
+#: inc/patterns/header-creative.php:28
+#: inc/patterns/header-default.php:25
+#: inc/patterns/header-environmental.php:50
+#: inc/patterns/header-fashion.php:22
+#: inc/patterns/header-health.php:28
+#: inc/patterns/header-minimal.php:19
+#: inc/patterns/header-news.php:19
+#: inc/patterns/header-news.php:61
+#: inc/patterns/header-photography.php:20
+#: inc/patterns/header-studio.php:27
+#: inc/patterns/header-transparent-creative.php:30
+#: inc/patterns/header-transparent-studio.php:27
+#: inc/patterns/header-travel.php:21
+#: inc/patterns/pro/footer-agency.php:61
+#: inc/patterns/pro/footer-recipes.php:31
+#: inc/patterns/pro/header-agency.php:24
+#: inc/patterns/pro/header-coffee-shop.php:27
+#: inc/patterns/pro/header-startup.php:24
+msgid "News"
+msgstr ""
+
+#: inc/admin/theme-admin.php:157
+msgid "Photography"
+msgstr ""
+
+#: inc/admin/theme-admin.php:164
+msgid "Studio"
+msgstr ""
+
+#: inc/admin/theme-admin.php:171
+msgid "Architecture"
+msgstr ""
+
+#: inc/admin/theme-admin.php:178
+msgid "Real Estate"
+msgstr ""
+
+#: inc/admin/theme-admin.php:188
+#: inc/patterns/footer-environmental.php:72
+#: inc/patterns/footer-fashion.php:38
+#: inc/patterns/pro/footer-agency.php:59
+msgid "Demos"
+msgstr ""
+
+#: inc/admin/theme-admin.php:190
+msgid "12"
+msgstr ""
+
+#: inc/admin/theme-admin.php:191
+msgid "19"
+msgstr ""
+
+#: inc/admin/theme-admin.php:194
+msgid "Demo Import"
+msgstr ""
+
+#: inc/admin/theme-admin.php:200
+msgid "DeoBlocks plugin"
+msgstr ""
+
+#: inc/admin/theme-admin.php:206
+msgid "WooCommerce support"
+msgstr ""
+
+#: inc/admin/theme-admin.php:212
+msgid "Portfolio module"
+msgstr ""
+
+#: inc/admin/theme-admin.php:218
+msgid "Properties module"
+msgstr ""
+
+#: inc/admin/theme-admin.php:224
+msgid "Single post layouts"
+msgstr ""
+
+#: inc/admin/theme-admin.php:226
+msgid "1"
+msgstr ""
+
+#: inc/admin/theme-admin.php:227
+msgid "3"
+msgstr ""
+
+#: inc/admin/theme-admin.php:230
+msgid "Adobe fonts"
+msgstr ""
+
+#: inc/admin/theme-admin.php:236
+msgid "Priority email support"
+msgstr ""
+
+#: inc/admin/theme-admin.php:248
+msgid "Theme Installation"
+msgstr ""
+
+#: inc/admin/theme-admin.php:257
+msgid "Edit Templates and Pages"
+msgstr ""
+
+#: inc/admin/theme-admin.php:266
+msgid "Edit Navigation Menu"
+msgstr ""
+
+#: inc/admin/theme-admin.php:285
+msgid "Made by "
+msgstr ""
+
+#: inc/admin/theme-admin.php:298
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/theme-admin.php:300
+msgid "Ona is now installed and ready to use. Get ready to build something beautiful. We hope you enjoy it! If you have any suggestion of how to improve this theme feel free to contact us."
+msgstr ""
+
+#: inc/admin/theme-admin.php:307
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/admin/theme-admin.php:311
+#: inc/patterns/pro/footer-recipes.php:32
+msgid "Features"
+msgstr ""
+
+#. translators: %s: Theme name.
+#: inc/admin/theme-admin.php:315
+#, php-format
+msgid "%s Free"
+msgstr ""
+
+#. translators: %s: Theme name.
+#: inc/admin/theme-admin.php:321
+#, php-format
+msgid "%s Pro"
+msgstr ""
+
+#: inc/admin/theme-admin.php:370
+msgid "Upgrade Now"
+msgstr ""
+
+#: inc/admin/theme-admin.php:377
+msgid " Demos"
+msgstr ""
+
+#. translators: %s: Link to documentation.
+#: inc/admin/theme-admin.php:385
+#, php-format
+msgid "Note: The free child themes installed from wordpress.org repository will not work with the Ona Pro. Kindly remove them and install the child themes from the section below. %s"
+msgstr ""
+
+#: inc/admin/theme-admin.php:386
+#: inc/patterns/pro/general-hero-agency.php:27
+#: inc/patterns/pro/general-hero-startup.php:40
+#: inc/patterns/pro/general-icon-boxes-agency.php:45
+#: inc/patterns/pro/general-icon-boxes-agency.php:67
+#: inc/patterns/pro/general-icon-boxes-agency.php:89
+#: inc/patterns/pro/general-icon-boxes-agency.php:111
+msgid "Learn More"
+msgstr ""
+
+#: inc/admin/theme-admin.php:405
+msgid "Update Now"
+msgstr ""
+
+#: inc/admin/theme-admin.php:416
+#: inc/admin/theme-admin.php:548
+msgid "Pro"
+msgstr ""
+
+#: inc/admin/theme-admin.php:437
+#: inc/admin/theme-admin.php:457
+#: inc/admin/theme-admin.php:477
+msgid "Preview"
+msgstr ""
+
+#: inc/admin/theme-admin.php:437
+#: inc/admin/theme-admin.php:443
+#: inc/merlin/merlin-config.php:42
+#: inc/merlin/merlin-config.php:43
+#: inc/merlin/merlin-config.php:44
+#: inc/tgmpa/class-tgm-plugin-activation.php:2867
+msgid "Install"
+msgstr ""
+
+#: inc/admin/theme-admin.php:457
+#: inc/admin/theme-admin.php:464
+#: inc/tgmpa/class-tgm-plugin-activation.php:2876
+msgid "Activate"
+msgstr ""
+
+#: inc/admin/theme-admin.php:483
+#: inc/merlin/merlin-config.php:45
+msgid "Import"
+msgstr ""
+
+#: inc/admin/theme-admin.php:507
+#: inc/patterns/footer-fashion.php:30
+#: inc/patterns/footer-news.php:50
+#: inc/patterns/footer-travel.php:45
+#: inc/patterns/pro/footer-coffee-shop.php:18
+#: inc/patterns/pro/footer-recipes.php:40
+msgid "Useful Links"
+msgstr ""
+
+#: inc/admin/theme-admin.php:510
+#: inc/merlin/merlin-config.php:78
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/theme-admin.php:513
+msgid "Rate us ★★★★★"
+msgstr ""
+
+#: inc/admin/theme-admin.php:518
+msgid "Contact us"
+msgstr ""
+
+#: inc/admin/theme-admin.php:523
+msgid "Follow us"
+msgstr ""
+
+#: inc/admin/theme-admin.php:530
+msgid "Suggest a Feature"
+msgstr ""
+
+#: inc/admin/theme-admin.php:531
+msgid "Missing an important feature? Let us know how we can improve the product."
+msgstr ""
+
+#: inc/admin/theme-admin.php:532
+msgid "Leave a Feedback"
+msgstr ""
+
+#: inc/admin/theme-admin.php:537
+msgid "Settings"
+msgstr ""
+
+#: inc/admin/theme-admin.php:540
+msgid "Site Editor"
+msgstr ""
+
+#: inc/admin/theme-admin.php:543
+msgid "Customizer"
+msgstr ""
+
+#: inc/admin/theme-admin.php:546
+msgid "Edit Fonts"
+msgstr ""
+
+#: inc/admin/theme-admin.php:557
+msgid "Video Tutorials"
+msgstr ""
+
+#: inc/admin/theme-admin.php:592
+#: inc/admin/theme-admin.php:670
+msgid "Unauthorized."
+msgstr ""
+
+#: inc/admin/theme-admin.php:640
+msgid "Awesome. Your child theme is now activated. Proceed to importing the content."
+msgstr ""
+
+#: inc/admin/theme-admin.php:647
+msgid "There was an error unzipping the file."
+msgstr ""
+
+#: inc/admin/theme-admin.php:656
+msgid "The existing child theme was activated. Proceed to importing the content."
+msgstr ""
+
+#: inc/admin/theme-admin.php:691
+msgid "Awesome. Your child theme is now updated."
+msgstr ""
+
+#: inc/admin/theme-admin.php:698
+msgid "Oops... Something went wrong. Please try again."
+msgstr ""
+
+#: inc/admin/theme-admin.php:760
+msgid "Thank you for choosing Ona!"
+msgstr ""
+
+#: inc/admin/theme-admin.php:762
+msgid "Run the Setup Wizard to configure your new theme and begin customizing your site."
+msgstr ""
+
+#: inc/admin/theme-admin.php:764
+msgid "Follow the steps to configure your new theme and begin customizing your site."
+msgstr ""
+
+#: inc/admin/theme-admin.php:768
+msgid "Setup Instructions"
+msgstr ""
+
+#: inc/block-styles.php:19
+msgid "Tablet align center"
+msgstr ""
+
+#: inc/block-styles.php:36
+msgid "Tablet align right"
+msgstr ""
+
+#: inc/block-styles.php:53
+msgid "Tablet align left"
+msgstr ""
+
+#: inc/block-styles.php:70
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/block-styles.php:86
+msgid "Button no Space"
+msgstr ""
+
+#: inc/block-styles.php:105
+msgid "Row gap 20"
+msgstr ""
+
+#: inc/block-styles.php:114
+msgid "Row gap 40"
+msgstr ""
+
+#: inc/block-styles.php:123
+msgid "Gap 30"
+msgstr ""
+
+#: inc/block-styles.php:140
+msgid "Gap 40"
+msgstr ""
+
+#: inc/block-styles.php:149
+msgid "Gap 64"
+msgstr ""
+
+#: inc/block-styles.php:159
+msgid "Pill shape"
+msgstr ""
+
+#: inc/block-styles.php:178
+msgid "Cover"
+msgstr ""
+
+#: inc/block-styles.php:198
+#: inc/patterns/forms-newsletter.php:11
+msgid "Newsletter"
+msgstr ""
+
+#: inc/block-styles.php:259
+msgid "Style 2"
+msgstr ""
+
+#: inc/block-styles.php:322
+msgid "Style 3"
+msgstr ""
+
+#: inc/block-styles.php:400
+msgid "Alt font"
+msgstr ""
+
+#: inc/block-styles.php:409
+msgid "Stroke frame"
+msgstr ""
+
+#: inc/block-styles.php:422
+msgid "Hover scale"
+msgstr ""
+
+#: inc/block-styles.php:440
+msgid "Full link"
+msgstr ""
+
+#: inc/block-styles.php:457
+#: inc/block-styles.php:466
+#: inc/block-styles.php:475
+msgid "Offset left"
+msgstr ""
+
+#: inc/block-styles.php:484
+msgid "Offset right"
+msgstr ""
+
+#: inc/block-styles.php:493
+#: inc/block-styles.php:502
+msgid "Offset bottom"
+msgstr ""
+
+#: inc/block-styles.php:511
+#: inc/block-styles.php:520
+msgid "Offset top"
+msgstr ""
+
+#: inc/block-styles.php:529
+#: inc/block-styles.php:538
+msgid "Shift right"
+msgstr ""
+
+#: inc/block-styles.php:547
+#: inc/block-styles.php:556
+msgid "Shift left"
+msgstr ""
+
+#: inc/block-styles.php:565
+#: inc/block-styles.php:574
+msgid "Hide on Tablet"
+msgstr ""
+
+#: inc/block-styles.php:583
+#: inc/block-styles.php:592
+msgid "Hide on Mobile"
+msgstr ""
+
+#: inc/block-styles.php:601
+#: inc/block-styles.php:617
+msgid "Sticky"
+msgstr ""
+
+#: inc/block-styles.php:633
+msgid "Arrow icon"
+msgstr ""
+
+#: inc/block-styles.php:663
+msgid "Color on hover"
+msgstr ""
+
+#: inc/block-styles.php:685
+msgid "Grid Gap 70"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:435
+msgid "Something went wrong. Please refresh the page and try again!"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:587
+msgid "Please define default parameters in the form of an array."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:592
+msgid "Please define an SVG icon filename."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:701
+msgid "Welcome"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:715
+msgid "Plugins"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:723
+#: inc/merlin/class-merlin.php:1720
+msgid "Content"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:729
+msgid "Ready"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:834
+msgid "The welcome step has been displayed"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:914
+msgid "The child theme installation step has been displayed"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1001
+#: inc/tgmpa/class-tgm-plugin-activation.php:2421
+msgid "Required"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1002
+msgid "req"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1042
+msgid "The plugin installation step has been displayed"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1080
+msgid "Home Preview"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1126
+msgid "The content import step has been displayed"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1206
+msgid "The final step has been displayed"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1283
+msgid "The existing child theme was activated"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1301
+msgid "The newly generated child theme was activated"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1361
+msgid "The child theme functions.php content was generated"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1392
+msgid "The child theme style.css content was generated"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1426
+msgid "The child theme screenshot was copied to the child theme, with the following result"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1428
+msgid "The child theme screenshot was not generated, because of these results"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1457
+msgid "Activating"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1473
+msgid "Updating"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1489
+#: inc/merlin/class-merlin.php:1505
+#: inc/merlin/class-merlin.php:1723
+#: inc/merlin/class-merlin.php:1736
+#: inc/merlin/class-merlin.php:1749
+#: inc/merlin/class-merlin.php:1762
+#: inc/merlin/class-merlin.php:1775
+#: inc/merlin/class-merlin.php:1788
+#: inc/merlin/class-merlin.php:1831
+msgid "Installing"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1497
+msgid "A plugin with the following data will be processed"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1509
+msgid "A plugin with the following data was processed"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1518
+#: inc/merlin/class-merlin.php:1724
+#: inc/merlin/class-merlin.php:1737
+#: inc/merlin/class-merlin.php:1750
+#: inc/merlin/class-merlin.php:1763
+#: inc/merlin/class-merlin.php:1776
+#: inc/merlin/class-merlin.php:1789
+msgid "Success"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1541
+msgid "The content importer AJAX call failed to start, because of incorrect data"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1546
+msgid "Invalid content!"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1557
+msgid "The content import AJAX call will be executed with this import data"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1599
+msgid "The content import AJAX call failed with this passed data"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1610
+msgid "Error"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1624
+msgid "The content importer AJAX call for retrieving total content import items failed to start, because of incorrect data."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1629
+msgid "Invalid data!"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1721
+msgid "Demo content data."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1722
+#: inc/merlin/class-merlin.php:1735
+#: inc/merlin/class-merlin.php:1748
+#: inc/merlin/class-merlin.php:1761
+#: inc/merlin/class-merlin.php:1774
+#: inc/merlin/class-merlin.php:1787
+msgid "Pending"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1733
+msgid "Widgets"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1734
+msgid "Sample widgets data."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1746
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1747
+msgid "Sample Revolution sliders data."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1759
+msgid "Options"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1760
+msgid "Sample theme options data."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1772
+msgid "Redux Options"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1773
+msgid "Redux framework options."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1785
+msgid "After import setup"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1786
+msgid "After import setup."
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1815
+msgid "The revolution slider import was executed"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1852
+msgid "The home page was set"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1862
+msgid "The blog page was set"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1877
+msgid "The Hello world post status was set to draft"
+msgstr ""
+
+#: inc/merlin/class-merlin.php:1901
+msgid "This predefined demo import does not have the name parameter: import_file_name"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-customizer-importer.php:30
+msgid "The customizer import has finished successfully"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-customizer-importer.php:57
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-customizer-importer.php:70
+msgid "Error: The customizer import file does not have any content in it. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-customizer-importer.php:80
+msgid "Error: The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-customizer-importer.php:86
+msgid "Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-downloader.php:56
+msgid "The file was not able to save to disk, while trying to download it"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-downloader.php:78
+msgid "Missing URL for downloading a file!"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-downloader.php:96
+#, php-format
+msgid "An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - %6$s."
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-redux-importer.php:32
+msgid "The Redux Framework data was imported"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:72
+msgid "Error: Widget import file could not be found."
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:83
+msgid "Error: Widget import file does not have any content in it."
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:105
+msgid "Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:143
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:164
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:197
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:255
+msgid "Imported"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:258
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:264
+msgid "No Title"
+msgstr ""
+
+#: inc/merlin/includes/class-merlin-widget-importer.php:326
+msgid "No results for widget import!"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:31
+msgid "Theme Setup"
+msgstr ""
+
+#. translators: 1: Title Tag 2: Theme Name 3: Closing Title Tag
+#: inc/merlin/merlin-config.php:34
+#, php-format
+msgid "%1$s%2$s Themes &lsaquo; Theme Setup: %3$s%4$s"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:35
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:36
+msgid "Disable this wizard"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:38
+msgid "Skip"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:39
+#: inc/patterns/pro/general-hero-slider-online-store.php:53
+msgid "Next"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:40
+msgid "Start"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:41
+msgid "Cancel"
+msgstr ""
+
+#. translators: Theme Name
+#: inc/merlin/merlin-config.php:48
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:49
+msgid "Hi. Welcome back"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:50
+msgid "This wizard will set up your theme, install plugins, and import content. It should take only a few minutes."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:51
+msgid "You may have already run this theme setup wizard. If you would like to proceed anyway, click on the \"Start\" button below."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:53
+msgid "Install Child Theme"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:54
+msgid "You're good to go!"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:55
+msgid "Let's build & activate a child theme so you may easily make theme changes."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:56
+msgid "Your child theme has already been installed and is now activated, if it wasn't already."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:57
+msgid "Learn about child themes"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:58
+msgid "Awesome. Your child theme has already been installed and is now activated."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:59
+msgid "Awesome. Your child theme has been created and is now activated."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:61
+#: inc/tgmpa/class-tgm-plugin-activation.php:341
+#: inc/tgmpa/tgm-plugin-activation.php:101
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:62
+msgid "You're up to speed!"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:63
+msgid "Let's install some essential WordPress plugins to get your site up to speed."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:64
+msgid "The required WordPress plugins are all installed and up to date. Press \"Next\" to continue the setup wizard."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:65
+#: inc/merlin/merlin-config.php:70
+msgid "Advanced"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:67
+msgid "Import Content"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:68
+msgid "Let's import content to your website. This could take some minutes. Please wait."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:69
+msgid "Explore Demos"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:72
+msgid "All done. Have fun!"
+msgstr ""
+
+#. translators: Theme Author
+#: inc/merlin/merlin-config.php:75
+#, php-format
+msgid "Your theme has been all set up. Enjoy your new theme by %s."
+msgstr ""
+
+#: inc/merlin/merlin-config.php:76
+msgid "Extras"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:77
+msgid "View your website"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:79
+msgid "Get Theme Support"
+msgstr ""
+
+#: inc/merlin/merlin-config.php:80
+msgid "Start Customizing"
+msgstr ""
+
+#: inc/patterns/block-patterns.php:18
+msgid "Ona General"
+msgstr ""
+
+#: inc/patterns/block-patterns.php:22
+msgid "Ona Footers"
+msgstr ""
+
+#: inc/patterns/block-patterns.php:26
+msgid "Ona Headers"
+msgstr ""
+
+#: inc/patterns/block-patterns.php:30
+msgid "Ona Sidebars"
+msgstr ""
+
+#: inc/patterns/block-patterns.php:34
+msgid "Ona Posts"
+msgstr ""
+
+#: inc/patterns/block-patterns.php:38
+msgid "Ona Pages"
+msgstr ""
+
+#: inc/patterns/block-patterns.php:42
+msgid "Ona Shop"
+msgstr ""
+
+#: inc/patterns/block-patterns.php:46
+msgid "Ona Forms"
+msgstr ""
+
+#: inc/patterns/footer-business.php:9
+msgid "Footer business"
+msgstr ""
+
+#: inc/patterns/footer-business.php:18
+msgid "Let’s get started on something great"
+msgstr ""
+
+#: inc/patterns/footer-business.php:22
+msgid "Join over 5876+ startups already growing with untitled."
+msgstr ""
+
+#: inc/patterns/footer-business.php:27
+msgid "View Demos"
+msgstr ""
+
+#: inc/patterns/footer-business.php:31
+msgid "Get Started"
+msgstr ""
+
+#. translators: %d: Current year.
+#: inc/patterns/footer-business.php:48
+#: inc/patterns/footer-creative.php:43
+#: inc/patterns/footer-default.php:48
+#: inc/patterns/footer-environmental.php:99
+#: inc/patterns/footer-fashion.php:86
+#: inc/patterns/footer-health.php:42
+#: inc/patterns/footer-minimal.php:73
+#: inc/patterns/footer-news.php:86
+#: inc/patterns/footer-photography.php:23
+#: inc/patterns/footer-travel.php:68
+#: inc/patterns/pro/footer-agency.php:89
+#: inc/patterns/pro/footer-coffee-shop.php:76
+#: inc/patterns/pro/footer-magazine.php:66
+#: inc/patterns/pro/footer-online-store.php:119
+#: inc/patterns/pro/footer-real-estate.php:57
+#: inc/patterns/pro/footer-recipes.php:77
+#: inc/patterns/pro/footer-startup.php:89
+#, php-format
+msgid "© %d Powered by "
+msgstr ""
+
+#. translators: %d: Current year.
+#: inc/patterns/footer-business.php:48
+#: inc/patterns/footer-creative.php:43
+#: inc/patterns/footer-default.php:48
+#: inc/patterns/footer-environmental.php:99
+#: inc/patterns/footer-fashion.php:86
+#: inc/patterns/footer-health.php:42
+#: inc/patterns/footer-minimal.php:73
+#: inc/patterns/footer-news.php:86
+#: inc/patterns/footer-photography.php:23
+#: inc/patterns/footer-travel.php:68
+#: inc/patterns/pro/footer-agency.php:89
+#: inc/patterns/pro/footer-coffee-shop.php:76
+#: inc/patterns/pro/footer-magazine.php:66
+#: inc/patterns/pro/footer-online-store.php:119
+#: inc/patterns/pro/footer-real-estate.php:57
+#: inc/patterns/pro/footer-recipes.php:77
+#: inc/patterns/pro/footer-startup.php:89
+msgid "Ona WordPress theme"
+msgstr ""
+
+#: inc/patterns/footer-business.php:55
+#: inc/patterns/footer-creative.php:47
+#: inc/patterns/footer-default.php:52
+#: inc/patterns/footer-environmental.php:103
+#: inc/patterns/footer-fashion.php:93
+#: inc/patterns/footer-health.php:50
+#: inc/patterns/footer-minimal.php:79
+#: inc/patterns/footer-news.php:90
+#: inc/patterns/footer-photography.php:30
+#: inc/patterns/footer-travel.php:90
+#: inc/patterns/pro/footer-agency.php:93
+#: inc/patterns/pro/footer-coffee-shop.php:84
+#: inc/patterns/pro/footer-magazine.php:70
+#: inc/patterns/pro/footer-online-store.php:86
+#: inc/patterns/pro/footer-online-store.php:125
+#: inc/patterns/pro/footer-real-estate.php:61
+#: inc/patterns/pro/footer-startup.php:97
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/patterns/footer-business.php:56
+#: inc/patterns/footer-creative.php:48
+#: inc/patterns/footer-environmental.php:104
+#: inc/patterns/footer-minimal.php:81
+#: inc/patterns/footer-news.php:91
+#: inc/patterns/pro/footer-agency.php:94
+#: inc/patterns/pro/footer-real-estate.php:62
+#: inc/patterns/pro/footer-startup.php:98
+msgid "Terms \\u0026amp; Conditions"
+msgstr ""
+
+#: inc/patterns/footer-creative.php:9
+msgid "Footer creative"
+msgstr ""
+
+#: inc/patterns/footer-creative.php:21
+#: inc/patterns/footer-environmental.php:60
+#: inc/patterns/footer-fashion.php:34
+#: inc/patterns/footer-health.php:19
+#: inc/patterns/footer-minimal.php:27
+#: inc/patterns/header-architecture.php:24
+#: inc/patterns/header-business.php:22
+#: inc/patterns/header-centered-logo.php:35
+#: inc/patterns/header-creative.php:27
+#: inc/patterns/header-default.php:24
+#: inc/patterns/header-environmental.php:49
+#: inc/patterns/header-fashion.php:19
+#: inc/patterns/header-health.php:25
+#: inc/patterns/header-minimal.php:18
+#: inc/patterns/header-news.php:60
+#: inc/patterns/header-photography.php:19
+#: inc/patterns/header-studio.php:24
+#: inc/patterns/header-transparent-architecture.php:24
+#: inc/patterns/header-transparent-creative.php:27
+#: inc/patterns/header-transparent-studio.php:24
+#: inc/patterns/header-travel.php:18
+#: inc/patterns/pro/footer-agency.php:47
+#: inc/patterns/pro/footer-coffee-shop.php:22
+#: inc/patterns/pro/footer-magazine.php:41
+#: inc/patterns/pro/header-agency.php:23
+#: inc/patterns/pro/header-coffee-shop.php:24
+#: inc/patterns/pro/header-magazine-transparent.php:23
+#: inc/patterns/pro/header-magazine.php:23
+#: inc/patterns/pro/header-online-store.php:49
+#: inc/patterns/pro/header-recipes.php:46
+#: inc/patterns/pro/header-startup.php:23
+msgid "Home"
+msgstr ""
+
+#: inc/patterns/footer-creative.php:22
+#: inc/patterns/footer-environmental.php:62
+#: inc/patterns/footer-fashion.php:35
+#: inc/patterns/footer-health.php:20
+#: inc/patterns/footer-minimal.php:29
+#: inc/patterns/footer-news.php:54
+#: inc/patterns/footer-studio.php:36
+#: inc/patterns/header-architecture.php:26
+#: inc/patterns/header-business.php:24
+#: inc/patterns/header-centered-logo.php:37
+#: inc/patterns/header-creative.php:29
+#: inc/patterns/header-default.php:26
+#: inc/patterns/header-environmental.php:51
+#: inc/patterns/header-fashion.php:20
+#: inc/patterns/header-health.php:26
+#: inc/patterns/header-minimal.php:20
+#: inc/patterns/header-news.php:62
+#: inc/patterns/header-photography.php:21
+#: inc/patterns/header-studio.php:25
+#: inc/patterns/header-transparent-architecture.php:26
+#: inc/patterns/header-transparent-creative.php:28
+#: inc/patterns/header-transparent-studio.php:25
+#: inc/patterns/header-travel.php:19
+#: inc/patterns/pro/footer-agency.php:49
+#: inc/patterns/pro/footer-coffee-shop.php:23
+#: inc/patterns/pro/footer-magazine.php:42
+#: inc/patterns/pro/footer-real-estate.php:37
+#: inc/patterns/pro/footer-recipes.php:30
+#: inc/patterns/pro/general-page-title-coffee-shop.php:14
+#: inc/patterns/pro/header-agency.php:27
+#: inc/patterns/pro/header-coffee-shop.php:25
+#: inc/patterns/pro/header-magazine-transparent.php:26
+#: inc/patterns/pro/header-magazine.php:26
+#: inc/patterns/pro/header-online-store.php:51
+#: inc/patterns/pro/header-recipes.php:48
+#: inc/patterns/pro/header-startup.php:27
+#: inc/patterns/pro/page-about-coffee-shop.php:19
+msgid "About"
+msgstr ""
+
+#: inc/patterns/footer-creative.php:23
+#: inc/patterns/footer-environmental.php:63
+#: inc/patterns/footer-fashion.php:37
+#: inc/patterns/footer-health.php:21
+#: inc/patterns/footer-minimal.php:31
+#: inc/patterns/footer-news.php:55
+#: inc/patterns/footer-studio.php:37
+#: inc/patterns/header-architecture.php:28
+#: inc/patterns/header-business.php:25
+#: inc/patterns/header-centered-logo.php:38
+#: inc/patterns/header-creative.php:30
+#: inc/patterns/header-default.php:27
+#: inc/patterns/header-environmental.php:52
+#: inc/patterns/header-fashion.php:21
+#: inc/patterns/header-health.php:27
+#: inc/patterns/header-minimal.php:21
+#: inc/patterns/header-news.php:22
+#: inc/patterns/header-news.php:63
+#: inc/patterns/header-photography.php:22
+#: inc/patterns/header-studio.php:26
+#: inc/patterns/header-transparent-architecture.php:28
+#: inc/patterns/header-transparent-creative.php:29
+#: inc/patterns/header-transparent-studio.php:26
+#: inc/patterns/header-travel.php:20
+#: inc/patterns/pro/footer-agency.php:50
+#: inc/patterns/pro/footer-coffee-shop.php:25
+#: inc/patterns/pro/footer-magazine.php:43
+#: inc/patterns/pro/header-agency.php:29
+#: inc/patterns/pro/header-coffee-shop.php:26
+#: inc/patterns/pro/header-magazine-transparent.php:27
+#: inc/patterns/pro/header-magazine.php:27
+#: inc/patterns/pro/header-online-store.php:23
+#: inc/patterns/pro/header-online-store.php:52
+#: inc/patterns/pro/header-recipes.php:49
+#: inc/patterns/pro/header-startup.php:29
+#: inc/patterns/pro/page-contact-coffee-shop.php:20
+msgid "Contact"
+msgstr ""
+
+#: inc/patterns/footer-default.php:9
+msgid "Default footer"
+msgstr ""
+
+#: inc/patterns/footer-default.php:53
+#: inc/patterns/footer-fashion.php:94
+#: inc/patterns/footer-health.php:51
+#: inc/patterns/footer-photography.php:31
+#: inc/patterns/footer-travel.php:91
+#: inc/patterns/pro/footer-coffee-shop.php:85
+#: inc/patterns/pro/footer-magazine.php:71
+#: inc/patterns/pro/footer-online-store.php:72
+#: inc/patterns/pro/footer-online-store.php:126
+msgid "Terms & Conditions"
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:11
+msgid "Footer environmental"
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:20
+msgid "Subscribe to New Posts"
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:51
+#: inc/patterns/footer-fashion.php:23
+msgid "A minimal, functional theme. All the latest news and creative articles are available at our news portal to encourage inspiration."
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:61
+#: inc/patterns/footer-fashion.php:36
+#: inc/patterns/pro/footer-agency.php:48
+msgid "Authors"
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:73
+#: inc/patterns/pro/footer-agency.php:60
+msgid "Team"
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:75
+#: inc/patterns/footer-fashion.php:39
+#: inc/patterns/pro/footer-agency.php:62
+msgid "Get Theme"
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:84
+#: inc/patterns/pro/footer-agency.php:71
+msgid "Facebook"
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:85
+#: inc/patterns/pro/footer-agency.php:72
+msgid "Twitter"
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:86
+#: inc/patterns/pro/footer-agency.php:73
+msgid "Linkedin"
+msgstr ""
+
+#: inc/patterns/footer-environmental.php:87
+#: inc/patterns/pro/footer-agency.php:74
+msgid "Dribbble"
+msgstr ""
+
+#: inc/patterns/footer-fashion.php:9
+msgid "Footer fashion"
+msgstr ""
+
+#: inc/patterns/footer-fashion.php:46
+#: inc/patterns/posts-list-with-sidebar-news.php:86
+msgid "Categories"
+msgstr ""
+
+#: inc/patterns/footer-fashion.php:50
+msgid "Design"
+msgstr ""
+
+#: inc/patterns/footer-fashion.php:51
+#: inc/patterns/footer-travel.php:52
+#: inc/patterns/header-news.php:20
+msgid "Lifestyle"
+msgstr ""
+
+#: inc/patterns/footer-fashion.php:54
+msgid "Beauty"
+msgstr ""
+
+#: inc/patterns/footer-fashion.php:55
+msgid "Buy Now"
+msgstr ""
+
+#: inc/patterns/footer-fashion.php:62
+msgid "Follow Us"
+msgstr ""
+
+#: inc/patterns/footer-health.php:9
+msgid "Footer health"
+msgstr ""
+
+#: inc/patterns/footer-minimal.php:11
+msgid "Footer minimal"
+msgstr ""
+
+#: inc/patterns/footer-minimal.php:23
+msgid "For collaboration and service offers feel free to get it touch."
+msgstr ""
+
+#: inc/patterns/footer-minimal.php:46
+#: inc/patterns/forms-newsletter.php:31
+#: inc/patterns/pro/forms-newsletter-coffee-shop.php:34
+#: inc/patterns/pro/page-about-coffee-shop.php:137
+#: inc/patterns/pro/page-contact-coffee-shop.php:111
+#: inc/patterns/pro/page-menu-coffee-shop.php:298
+#: inc/patterns/pro/page-reservation-coffee-shop.php:61
+msgid "Follow"
+msgstr ""
+
+#: inc/patterns/footer-news.php:11
+msgid "Footer news"
+msgstr ""
+
+#: inc/patterns/footer-news.php:24
+msgid "Ona News is a modern magazine WordPress theme. The balance between design and code."
+msgstr ""
+
+#: inc/patterns/footer-news.php:30
+#: inc/patterns/posts-grid-2-columns-no-image.php:14
+msgid "Trending News"
+msgstr ""
+
+#: inc/patterns/footer-news.php:56
+msgid "Cookies Settings"
+msgstr ""
+
+#: inc/patterns/footer-news.php:57
+msgid "We are hiring"
+msgstr ""
+
+#: inc/patterns/footer-news.php:58
+#: inc/patterns/header-news.php:21
+#: inc/patterns/pro/footer-real-estate.php:40
+#: inc/patterns/pro/footer-recipes.php:33
+msgid "Advertise"
+msgstr ""
+
+#: inc/patterns/footer-news.php:65
+msgid "Stay updated"
+msgstr ""
+
+#: inc/patterns/footer-news.php:69
+msgid "Subscribe to our mailing list to receives daily updates direct to your inbox!"
+msgstr ""
+
+#: inc/patterns/footer-photography.php:11
+msgid "Footer photography"
+msgstr ""
+
+#: inc/patterns/footer-studio.php:9
+msgid "Footer studio"
+msgstr ""
+
+#: inc/patterns/footer-studio.php:27
+msgid "+64 93 310 70 50"
+msgstr ""
+
+#: inc/patterns/footer-studio.php:38
+#: inc/patterns/pro/footer-startup.php:28
+#: inc/patterns/pro/header-agency.php:28
+#: inc/patterns/pro/header-startup.php:28
+#: inc/patterns/pro/page-services-agency.php:15
+msgid "Services"
+msgstr ""
+
+#: inc/patterns/footer-studio.php:39
+msgid "Jobs"
+msgstr ""
+
+#: inc/patterns/footer-travel.php:11
+msgid "Footer travel"
+msgstr ""
+
+#: inc/patterns/footer-travel.php:26
+#: inc/patterns/pro/footer-coffee-shop.php:39
+msgid "Goddard Hall 81 Washington Square E,<br>New York, NY 10003, USA"
+msgstr ""
+
+#: inc/patterns/footer-travel.php:30
+msgid "1-888-925-8067 | help@onashop.com"
+msgstr ""
+
+#: inc/patterns/footer-travel.php:37
+#: inc/patterns/posts-grid-3-columns-environmental.php:14
+#: inc/patterns/posts-grid-3-columns-fashion.php:14
+#: inc/patterns/pro/posts-list-with-sidebar.php:87
+#: inc/patterns/sidebar-default.php:52
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/patterns/footer-travel.php:49
+msgid "Amazing Experience"
+msgstr ""
+
+#: inc/patterns/footer-travel.php:50
+msgid "Travel & Tours"
+msgstr ""
+
+#: inc/patterns/footer-travel.php:51
+msgid "Tips & Guide"
+msgstr ""
+
+#: inc/patterns/footer-travel.php:53
+msgid "Best Adventures"
+msgstr ""
+
+#: inc/patterns/footer-travel.php:54
+msgid "Sea & Beach"
+msgstr ""
+
+#: inc/patterns/forms-newsletter-book.php:11
+msgid "Newsletter book"
+msgstr ""
+
+#: inc/patterns/forms-newsletter-book.php:31
+msgid "LEARN MY BEST RECIPES FOR FREE"
+msgstr ""
+
+#: inc/patterns/forms-newsletter-book.php:35
+msgid "Grab my free guide on how to cook fresh and healthy meals"
+msgstr ""
+
+#: inc/patterns/forms-newsletter-book.php:39
+msgid "I share my best vegan recipes. Sed do eiusmod tempor incididu nt ut labore et dolore minim veniam, quism."
+msgstr ""
+
+#: inc/patterns/forms-newsletter.php:18
+#: inc/patterns/posts-list-with-sidebar-health.php:53
+#: inc/patterns/pro/forms-newsletter-coffee-shop.php:19
+#: inc/patterns/pro/forms-newsletter-sidebar.php:16
+#: inc/patterns/pro/page-about-coffee-shop.php:122
+#: inc/patterns/pro/page-contact-coffee-shop.php:96
+#: inc/patterns/pro/page-menu-coffee-shop.php:283
+#: inc/patterns/pro/page-reservation-coffee-shop.php:46
+#: inc/patterns/pro/posts-list-with-sidebar.php:95
+#: inc/patterns/sidebar-default.php:60
+msgid "SUBSCRIBE NOW"
+msgstr ""
+
+#: inc/patterns/forms-newsletter.php:22
+#: inc/patterns/posts-list-with-sidebar-health.php:57
+#: inc/patterns/pro/footer-magazine.php:23
+#: inc/patterns/pro/forms-newsletter-coffee-shop.php:23
+#: inc/patterns/pro/forms-newsletter-sidebar.php:20
+#: inc/patterns/pro/page-about-coffee-shop.php:126
+#: inc/patterns/pro/page-contact-coffee-shop.php:100
+#: inc/patterns/pro/page-menu-coffee-shop.php:287
+#: inc/patterns/pro/page-reservation-coffee-shop.php:50
+#: inc/patterns/pro/posts-list-with-sidebar.php:99
+#: inc/patterns/sidebar-default.php:64
+msgid "Join the newsletter to get the daily tips, latest articles and free stuffs delivered directly to your inbox."
+msgstr ""
+
+#: inc/patterns/general-about-business.php:9
+msgid "About business"
+msgstr ""
+
+#: inc/patterns/general-about-business.php:19
+msgid "96k"
+msgstr ""
+
+#: inc/patterns/general-about-business.php:23
+msgid "Successful Projects"
+msgstr ""
+
+#: inc/patterns/general-about-business.php:34
+#: inc/patterns/pro/general-about-rating-agency.php:32
+msgid "We build &amp; develop digital future"
+msgstr ""
+
+#: inc/patterns/general-about-business.php:38
+msgid "We have been destroying the forests for whatever reasons for many years. Our team consists of the great professionals with years of relevant experience."
+msgstr ""
+
+#: inc/patterns/general-about-business.php:48
+msgid "We invest in innovation"
+msgstr ""
+
+#: inc/patterns/general-about-business.php:58
+msgid "Simple and smart interesting ideas"
+msgstr ""
+
+#: inc/patterns/general-about-business.php:68
+msgid "It is quick, easy and ready to get started design"
+msgstr ""
+
+#: inc/patterns/general-about-business.php:75
+#: inc/patterns/header-business.php:33
+#: inc/patterns/pro/footer-online-store.php:83
+#: inc/patterns/pro/general-about-rating-agency.php:76
+msgid "Contact Us"
+msgstr ""
+
+#: inc/patterns/general-ad-banner-news.php:9
+msgid "Ad banner news"
+msgstr ""
+
+#: inc/patterns/general-cta-studio.php:9
+msgid "CTA studio"
+msgstr ""
+
+#: inc/patterns/general-cta-studio.php:14
+msgid "We’ll engage clients and businesess"
+msgstr ""
+
+#: inc/patterns/general-cta-studio.php:19
+#: inc/patterns/general-hero-studio.php:26
+msgid "Start Here"
+msgstr ""
+
+#: inc/patterns/general-gallery-5-columns.php:9
+msgid "Gallery 5 columns"
+msgstr ""
+
+#: inc/patterns/general-gallery-5-columns.php:14
+msgid "My Art"
+msgstr ""
+
+#: inc/patterns/general-gallery-5-columns.php:18
+msgid "Check my latest photos"
+msgstr ""
+
+#: inc/patterns/general-gallery-studio.php:9
+msgid "Gallery studio"
+msgstr ""
+
+#: inc/patterns/general-hero-architecture.php:9
+msgid "Hero architecture"
+msgstr ""
+
+#: inc/patterns/general-hero-architecture.php:16
+msgid "Blueprints Down Under"
+msgstr ""
+
+#: inc/patterns/general-hero-architecture.php:20
+msgid "Beautifully Designed For Everyday Living"
+msgstr ""
+
+#: inc/patterns/general-hero-architecture.php:25
+msgid "Discover More"
+msgstr ""
+
+#: inc/patterns/general-hero-business.php:9
+msgid "Hero business"
+msgstr ""
+
+#: inc/patterns/general-hero-business.php:16
+msgid "We believe in incredible business with Ona"
+msgstr ""
+
+#: inc/patterns/general-hero-cover.php:9
+msgid "Hero cover"
+msgstr ""
+
+#: inc/patterns/general-hero-cover.php:16
+msgid "Hello, I'm Ona. And this is my personal travel journal"
+msgstr ""
+
+#: inc/patterns/general-hero-creative.php:9
+msgid "Hero creative"
+msgstr ""
+
+#: inc/patterns/general-hero-creative.php:16
+#: inc/patterns/general-promo-section-travel.php:17
+msgid "Hey There"
+msgstr ""
+
+#: inc/patterns/general-hero-creative.php:20
+msgid "I’m Ona, and this is my travel journal"
+msgstr ""
+
+#: inc/patterns/general-hero-health.php:9
+msgid "Hero health"
+msgstr ""
+
+#: inc/patterns/general-hero-health.php:26
+msgid "Mindful Intentions"
+msgstr ""
+
+#: inc/patterns/general-hero-health.php:30
+msgid "A Simple Way to Program Yourself For Happiness"
+msgstr ""
+
+#: inc/patterns/general-hero-minimal.php:9
+msgid "Hero minimal"
+msgstr ""
+
+#: inc/patterns/general-hero-minimal.php:16
+msgid "Hey, I’m Ona, and this is my travel journal"
+msgstr ""
+
+#: inc/patterns/general-hero-photography.php:9
+msgid "Hero photography"
+msgstr ""
+
+#: inc/patterns/general-hero-photography.php:17
+msgid "The Art of Capturing Memories"
+msgstr ""
+
+#: inc/patterns/general-hero-photography.php:21
+msgid "Portrait • Landscape • Architecture • Wedding"
+msgstr ""
+
+#: inc/patterns/general-hero-studio.php:9
+msgid "Hero studio"
+msgstr ""
+
+#: inc/patterns/general-hero-studio.php:15
+msgid "Visualize Your Creativity"
+msgstr ""
+
+#: inc/patterns/general-hero-studio.php:20
+msgid "We help founders at the formative stages of their venture, to take an idea from concept through to launch"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-architecture.php:9
+msgid "Icon Boxes Architecture"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-architecture.php:22
+msgid "Custom Build"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-architecture.php:26
+msgid "Bring your unique vision to life. Our bespoke design process transforms your ideas into a one-of-a-kind home tailored to your lifestyle and preferences."
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-architecture.php:40
+msgid "New Homes"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-architecture.php:44
+msgid "Create your dream home from the ground up. We blend innovative design with functionality to craft beautiful, efficient living spaces that stand the test of time."
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-architecture.php:58
+msgid "Extensions"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-architecture.php:62
+msgid "Expand your horizons without changing address. Our extension designs seamlessly integrate with your existing property, and adding value to your home."
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-business.php:9
+msgid "Icon boxes business"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-business.php:15
+#: inc/patterns/pro/general-icon-boxes-agency.php:16
+msgid "We offer a complete range of a services"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-business.php:29
+#: inc/patterns/pro/footer-startup.php:33
+msgid "Digital Marketing"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-business.php:33
+#: inc/patterns/general-icon-boxes-business.php:57
+#: inc/patterns/general-icon-boxes-business.php:83
+#: inc/patterns/general-icon-boxes-business.php:107
+#: inc/patterns/general-statistic-business.php:32
+#: inc/patterns/general-statistic-business.php:50
+#: inc/patterns/general-statistic-business.php:68
+msgid "Our web design team will spend time with our digital marketing team to ensure more."
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-business.php:37
+#: inc/patterns/general-icon-boxes-business.php:61
+#: inc/patterns/general-icon-boxes-business.php:87
+#: inc/patterns/general-icon-boxes-business.php:111
+#: inc/patterns/pro/posts-grid-4-columns-agency.php:45
+#: inc/patterns/pro/posts-grid-4-columns-agency.php:73
+msgid "Read More"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-business.php:53
+msgid "UI/UX Product Design"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-business.php:79
+#: inc/patterns/pro/footer-startup.php:34
+#: inc/patterns/pro/general-icon-boxes-agency.php:81
+#: inc/patterns/pro/page-services-agency.php:82
+msgid "Web Development"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-business.php:103
+msgid "SEO and PPC"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-studio.php:9
+msgid "Icon Boxes Studio"
+msgstr ""
+
+#: inc/patterns/general-icon-boxes-studio.php:57
+msgid "Ona is a simple and elegant template with tons of features. Lorem ipsum dolor sit amet, consectetur."
+msgstr ""
+
+#: inc/patterns/general-instagram-feed-health.php:9
+msgid "Instagram feed health"
+msgstr ""
+
+#: inc/patterns/general-instagram-feed-health.php:15
+msgid "Instagram"
+msgstr ""
+
+#: inc/patterns/general-instagram-feed-health.php:19
+msgid "@onatheme"
+msgstr ""
+
+#: inc/patterns/general-intro-architecture.php:9
+msgid "Intro architecture"
+msgstr ""
+
+#: inc/patterns/general-intro-architecture.php:22
+msgid "Architectural more innovative and coherent your concept"
+msgstr ""
+
+#: inc/patterns/general-intro-architecture.php:26
+msgid "An idea that takes the parts of a structure and turns them into a whole system. Practice is the frequent and continued contemplation of the mode of executing any given work, or of the mere operation of the hands."
+msgstr ""
+
+#: inc/patterns/general-intro-studio.php:9
+msgid "Intro studio"
+msgstr ""
+
+#: inc/patterns/general-intro-studio.php:16
+msgid "Perfect tool for your real business and startup"
+msgstr ""
+
+#: inc/patterns/general-intro-studio.php:26
+msgid "We help founders at the formative stages of their venture, to take an idea from concept through to launch. We’re an engineering and design studio with an entrepreneurial spirit."
+msgstr ""
+
+#: inc/patterns/general-latest-youtube-video.php:9
+msgid "Latest YouTube video"
+msgstr ""
+
+#: inc/patterns/general-latest-youtube-video.php:16
+msgid "Discover my latest video"
+msgstr ""
+
+#: inc/patterns/general-latest-youtube-video.php:20
+msgid "When your life appears so out of balance, ordinary comfort diminishes completely. Anxiety, stress and often depression feel more compelling to us."
+msgstr ""
+
+#: inc/patterns/general-latest-youtube-video.php:25
+msgid "See More Vlogs"
+msgstr ""
+
+#: inc/patterns/general-page-title-studio.php:9
+msgid "Page title studio"
+msgstr ""
+
+#: inc/patterns/general-page-title-studio.php:14
+msgid "Latest News"
+msgstr ""
+
+#: inc/patterns/general-page-title-with-image.php:9
+msgid "Page title with image"
+msgstr ""
+
+#: inc/patterns/general-page-title-with-image.php:26
+#: inc/patterns/page-about.php:27
+msgid "I am a lifestyle and fashion blogger, a person who enjoys travel."
+msgstr ""
+
+#: inc/patterns/general-partner-logos-business.php:9
+msgid "Partner logos business"
+msgstr ""
+
+#: inc/patterns/general-partner-logos-business.php:14
+msgid "trusted by hundreds of brands"
+msgstr ""
+
+#: inc/patterns/general-partner-logos-fashion.php:9
+msgid "Partner logos fashion"
+msgstr ""
+
+#: inc/patterns/general-partner-logos-studio.php:9
+msgid "Partner logos studio"
+msgstr ""
+
+#: inc/patterns/general-partner-logos-studio.php:14
+msgid "High-level Design studio with an entrepreneurial spirit."
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:9
+msgid "Projects architecture"
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:15
+msgid "Our Best Projects"
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:19
+msgid "Innovative Designs, Timeless Impact: Our Latest Architectural Endeavors"
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:33
+msgid "Maple Grove Homes"
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:37
+msgid "A cozy development of 15 single-family homes nestled among mature maple trees, offering a perfect blend of natural beauty."
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:41
+#: inc/patterns/general-projects-architecture.php:63
+#: inc/patterns/general-projects-architecture.php:85
+msgid "View Project"
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:55
+msgid "Greenwood Commons"
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:59
+msgid "A modern complex of 30 eco-friendly houses along the riverside, featuring shared green spaces and a community boathouse"
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:77
+msgid "Parkview Place"
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:81
+msgid "A boutique collection of 10 luxury condominiums overlooking the city's central park, offering premium amenities and panoramic views."
+msgstr ""
+
+#: inc/patterns/general-projects-architecture.php:93
+msgid "View All Projects"
+msgstr ""
+
+#: inc/patterns/general-projects-business.php:9
+msgid "Projects business"
+msgstr ""
+
+#: inc/patterns/general-projects-business.php:18
+#: inc/patterns/pro/general-projects-slider.php:17
+msgid "Featured works you may be interested"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes-creative.php:9
+msgid "Promo boxes creative"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes-creative.php:23
+msgid "GET IN TOUCH"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes-creative.php:42
+msgid "MY TRAVEL"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes-creative.php:56
+msgid "ABOUT ME"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:9
+msgid "Promo boxes"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:15
+msgid "POPULAR TOPICS"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:24
+msgid "FASHION"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:38
+msgid "LIFESTYLE"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:52
+msgid "TRAVEL"
+msgstr ""
+
+#: inc/patterns/general-promo-boxes.php:66
+msgid "STORIES"
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:9
+msgid "Promo CTA"
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:17
+#: inc/patterns/page-about-studio.php:348
+msgid "Discover how we can bring your architectural dreams to life."
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:21
+#: inc/patterns/page-about-studio.php:352
+msgid "From concept to completion, we're with you every step of the way. Ready to start your journey? Contact us today for a free consultation and let's create something extraordinary together."
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:31
+#: inc/patterns/page-about-studio.php:362
+msgid "25+ Years of Excellence"
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:41
+#: inc/patterns/page-about-studio.php:372
+msgid "1,564+ Satisfied Clients"
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:51
+#: inc/patterns/page-about-studio.php:382
+msgid "50 Industry Awards"
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:58
+#: inc/patterns/page-about-studio.php:389
+#: inc/patterns/pro/page-about-startup.php:50
+msgid "Let's Work Together"
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:67
+msgid "cta_promo_1"
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:71
+msgid "cta_promo_2"
+msgstr ""
+
+#: inc/patterns/general-promo-cta.php:75
+msgid "cta_promo_3"
+msgstr ""
+
+#: inc/patterns/general-promo-health.php:9
+msgid "Promo health"
+msgstr ""
+
+#: inc/patterns/general-promo-health.php:16
+msgid "Best Stretching Exercises for Better Flexibility"
+msgstr ""
+
+#: inc/patterns/general-promo-health.php:20
+#: inc/patterns/general-promo-section.php:23
+msgid "Some blogs focus more on fashion advice, featuring how-to articles for the lay reader."
+msgstr ""
+
+#: inc/patterns/general-promo-health.php:25
+#: inc/patterns/general-promo-section-offset.php:23
+#: inc/patterns/general-promo-section.php:27
+#: inc/patterns/page-about.php:66
+msgid "Some blogs focus more on fashion advice, featuring how-to articles for the lay reader. Articles discuss clothing fit, the matching and complementing of colors, and other information on clothes wearing and care along with prescriptive advice."
+msgstr ""
+
+#: inc/patterns/general-promo-health.php:29
+#: inc/patterns/general-promo-section-travel.php:33
+#: inc/patterns/general-testimonials-business.php:29
+#: inc/patterns/pro/posts-list-with-sidebar.php:62
+#: inc/patterns/pro/posts-list-with-sidebar.php:70
+#: inc/patterns/pro/sidebar-about-widget.php:22
+#: inc/patterns/pro/sidebar-about-widget.php:30
+#: inc/patterns/sidebar-default.php:27
+#: inc/patterns/sidebar-default.php:35
+msgid "Joeby Ragpa"
+msgstr ""
+
+#: inc/patterns/general-promo-section-offset.php:9
+msgid "Promo section offset"
+msgstr ""
+
+#: inc/patterns/general-promo-section-offset.php:18
+#: inc/patterns/page-about.php:61
+msgid "I Love working with people who find joy in the little things"
+msgstr ""
+
+#: inc/patterns/general-promo-section-travel.php:9
+msgid "Promo section travel"
+msgstr ""
+
+#: inc/patterns/general-promo-section-travel.php:21
+msgid "Discover my latest Updates"
+msgstr ""
+
+#: inc/patterns/general-promo-section-travel.php:25
+msgid "I’m a coffee lover, content creator and influencer who is design obsessed. My husband and I love to help businesses transform them into something amazing."
+msgstr ""
+
+#: inc/patterns/general-promo-section-travel.php:29
+msgid "When your life appears so out of balance, ordinary comfort diminishes completely. Anxiety, stress and often depression feel more compelling to us than any hope or comfort in life."
+msgstr ""
+
+#: inc/patterns/general-promo-section.php:9
+msgid "Promo section"
+msgstr ""
+
+#: inc/patterns/general-promo-section.php:19
+msgid "My Travel Gear"
+msgstr ""
+
+#: inc/patterns/general-promo-section.php:35
+msgid "Joebyragpa"
+msgstr ""
+
+#: inc/patterns/general-quote-fashion.php:9
+msgid "Quote fashion"
+msgstr ""
+
+#: inc/patterns/general-quote-fashion.php:20
+msgid "Fashion is what you're offered four times a year by designers. And style is what you choose."
+msgstr ""
+
+#: inc/patterns/general-statistic-business.php:9
+msgid "Statistic business"
+msgstr ""
+
+#: inc/patterns/general-statistic-business.php:14
+msgid "Global Clients Around the World"
+msgstr ""
+
+#: inc/patterns/general-statistic-business.php:22
+msgid "550k"
+msgstr ""
+
+#: inc/patterns/general-statistic-business.php:28
+#: inc/patterns/pro/page-about-startup.php:87
+#: inc/patterns/pro/page-services-agency.php:181
+msgid "Happy Customers"
+msgstr ""
+
+#: inc/patterns/general-statistic-business.php:40
+msgid "379+"
+msgstr ""
+
+#: inc/patterns/general-statistic-business.php:46
+msgid "Dedicated Employees"
+msgstr ""
+
+#: inc/patterns/general-statistic-business.php:58
+msgid "89+"
+msgstr ""
+
+#: inc/patterns/general-statistic-business.php:64
+msgid "Useful Programs"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:9
+msgid "Team business"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:14
+#: inc/patterns/pro/page-about-startup.php:121
+msgid "Our Experts Team"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:27
+#: inc/patterns/pro/general-team-agency.php:21
+#: inc/patterns/pro/page-about-agency.php:103
+msgid "Alex Grey"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:31
+#: inc/patterns/general-testimonials-business.php:33
+msgid "Associate"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:45
+#: inc/patterns/pro/general-team-agency.php:45
+#: inc/patterns/pro/page-about-agency.php:127
+msgid "Ashton Kutsher"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:49
+msgid "Front-end Developer"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:63
+#: inc/patterns/pro/general-team-agency.php:69
+#: inc/patterns/pro/page-about-agency.php:151
+msgid "Belinda Bing"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:67
+msgid "Web Designer"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:83
+#: inc/patterns/pro/general-team-agency.php:95
+#: inc/patterns/pro/page-about-agency.php:177
+msgid "Camille Alforque"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:87
+msgid "Senior Designer"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:101
+#: inc/patterns/pro/general-team-agency.php:119
+#: inc/patterns/pro/page-about-agency.php:201
+msgid "Nathaniel Ragpa"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:105
+msgid "Full-stack Developer"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:119
+#: inc/patterns/pro/general-team-agency.php:143
+#: inc/patterns/pro/page-about-agency.php:225
+msgid "Linda Brown"
+msgstr ""
+
+#: inc/patterns/general-team-business.php:123
+#: inc/patterns/pro/page-about-startup.php:169
+msgid "Sales Marketing"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:9
+msgid "Testimonials architecture"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:15
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:15
+msgid "What our customers are saying"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:19
+msgid "Here’s what people think about the Ona Architecture"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:32
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:33
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:151
+msgid "Christine Clark"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:36
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:37
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:155
+msgid "CEO of Skyline"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:47
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:48
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:166
+msgid "Ona Architecture's community-first approach set them apart. They listened to residents' concerns and incorporated our feedback at every stage. The resulting community center has become the heart of our neighborhood."
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:60
+#: inc/patterns/page-about-studio.php:179
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:63
+msgid "Sarah Chen"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:64
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:67
+msgid "Horizon Properties"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:75
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:78
+msgid "Ona Architecture transformed our vision into reality with their innovative sustainable design approach. Their attention to detail and commitment to environmental consciousness resulted in a building that not only looks stunning but also achieved LEED Platinum certification."
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:88
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:92
+msgid "Marcus Rodriguez"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:92
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:96
+msgid "Metropolitan Council"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:103
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:107
+msgid "Working with Ona Architecture on our downtown revitalization project was a game-changer. Their ability to blend modern design with historical preservation created a perfect harmony that has revitalized our city center."
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:116
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:122
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:181
+msgid "Emily Weber"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:120
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:126
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:185
+msgid "Tech Innovations"
+msgstr ""
+
+#: inc/patterns/general-testimonials-architecture.php:131
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:136
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:196
+msgid "The team at Ona Architecture designed our new headquarters with incredible vision. They created a space that perfectly reflects our company culture while maximizing productivity and employee well-being. The result is simply breathtaking."
+msgstr ""
+
+#: inc/patterns/general-testimonials-business.php:9
+msgid "Testimonials business"
+msgstr ""
+
+#: inc/patterns/general-testimonials-business.php:15
+msgid "Those who already tried our products"
+msgstr ""
+
+#: inc/patterns/general-testimonials-business.php:39
+#: inc/patterns/general-testimonials-business.php:85
+msgid "“I have witnessed and admired the work for years. I highly recommend this work for anyone seeking to increase.”"
+msgstr ""
+
+#: inc/patterns/general-testimonials-business.php:75
+#: inc/patterns/pro/general-quote-agency.php:30
+msgid "John Doe"
+msgstr ""
+
+#: inc/patterns/general-testimonials-business.php:79
+#: inc/patterns/pro/general-quote-agency.php:34
+msgid "Consultant"
+msgstr ""
+
+#: inc/patterns/general-testimonials.php:9
+msgid "Testimonials"
+msgstr ""
+
+#: inc/patterns/general-testimonials.php:14
+#: inc/patterns/pro/general-testimonials-slider.php:14
+msgid "TESTIMONIALS"
+msgstr ""
+
+#: inc/patterns/general-testimonials.php:25
+#: inc/patterns/pro/general-testimonials-slider.php:49
+#: inc/patterns/pro/general-testimonials-slider.php:67
+#: inc/patterns/pro/general-testimonials-slider.php:85
+msgid "I have witnessed and admired the work for years. I highly recommend this work for anyone seeking to increase."
+msgstr ""
+
+#: inc/patterns/general-testimonials.php:29
+#: inc/patterns/pro/general-testimonials-slider.php:71
+msgid "— Xyrel Paterson"
+msgstr ""
+
+#: inc/patterns/general-testimonials.php:45
+msgid "Every detail has been taken care these team are really amazing and talented! I will work only to help your sales goals."
+msgstr ""
+
+#: inc/patterns/general-testimonials.php:49
+#: inc/patterns/pro/general-testimonials-slider-coffee-shop.php:27
+#: inc/patterns/pro/general-testimonials-slider-coffee-shop.php:51
+#: inc/patterns/pro/general-testimonials-slider.php:35
+msgid "— Camille Alforque"
+msgstr ""
+
+#: inc/patterns/general-testimonials.php:65
+#: inc/patterns/pro/general-testimonials-slider.php:31
+msgid "Every detail has been taken care these team are realy amazing and talented! I will work only to help your sales goals."
+msgstr ""
+
+#: inc/patterns/general-testimonials.php:69
+#: inc/patterns/pro/general-testimonials-slider-coffee-shop.php:39
+#: inc/patterns/pro/general-testimonials-slider.php:53
+#: inc/patterns/pro/general-testimonials-slider.php:89
+msgid "— Xyjan Ragpa"
+msgstr ""
+
+#: inc/patterns/header-architecture.php:9
+msgid "Header architecture"
+msgstr ""
+
+#: inc/patterns/header-architecture.php:25
+#: inc/patterns/header-transparent-architecture.php:25
+msgid "Works"
+msgstr ""
+
+#: inc/patterns/header-architecture.php:27
+#: inc/patterns/header-transparent-architecture.php:27
+#: inc/patterns/pro/footer-real-estate.php:39
+#: inc/patterns/pro/header-magazine-transparent.php:24
+#: inc/patterns/pro/header-magazine.php:24
+msgid "Blog"
+msgstr ""
+
+#: inc/patterns/header-architecture.php:34
+#: inc/patterns/header-transparent-architecture.php:33
+msgid "Call: 34 622 910"
+msgstr ""
+
+#: inc/patterns/header-business.php:9
+msgid "Header business"
+msgstr ""
+
+#: inc/patterns/header-centered-logo.php:9
+msgid "Header centered logo"
+msgstr ""
+
+#: inc/patterns/header-creative.php:9
+msgid "Header creative"
+msgstr ""
+
+#: inc/patterns/header-default.php:9
+msgid "Header default"
+msgstr ""
+
+#: inc/patterns/header-environmental.php:9
+msgid "Header environmental"
+msgstr ""
+
+#: inc/patterns/header-fashion.php:9
+msgid "Header fashion"
+msgstr ""
+
+#: inc/patterns/header-health.php:9
+msgid "Header health"
+msgstr ""
+
+#: inc/patterns/header-minimal.php:9
+msgid "Header minimal"
+msgstr ""
+
+#: inc/patterns/header-news.php:9
+msgid "Header news"
+msgstr ""
+
+#: inc/patterns/header-photography.php:9
+msgid "Header photography"
+msgstr ""
+
+#: inc/patterns/header-studio.php:9
+msgid "Header studio"
+msgstr ""
+
+#: inc/patterns/header-studio.php:33
+#: inc/patterns/header-transparent-studio.php:33
+msgid "Get in Touch"
+msgstr ""
+
+#: inc/patterns/header-transparent-architecture.php:9
+msgid "Header transparent architecture"
+msgstr ""
+
+#: inc/patterns/header-transparent-creative.php:9
+msgid "Header transparent creative"
+msgstr ""
+
+#: inc/patterns/header-transparent-studio.php:9
+msgid "Header transparent studio"
+msgstr ""
+
+#: inc/patterns/header-travel.php:9
+msgid "Header travel"
+msgstr ""
+
+#: inc/patterns/page-404-photography.php:9
+msgid "Page 404 photography"
+msgstr ""
+
+#: inc/patterns/page-404-photography.php:19
+msgid "Page not found"
+msgstr ""
+
+#: inc/patterns/page-404-photography.php:23
+msgid "The page you are looking for could not be found. It might have been deleted, renamed, or it did not exist in the first place. You can search the site below, or return to the front page."
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:9
+msgid "Page about studio"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:16
+#: inc/patterns/pro/page-about-agency.php:15
+#: inc/patterns/pro/page-about-startup.php:19
+msgid "About Us"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:20
+msgid "Welcome to Ona, where creativity meets functionality and dreams become structures."
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:31
+msgid "Shaping Spaces,"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:31
+msgid "Enriching Lives"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:35
+msgid "Founded in 2019 by Michael Jefferson, Ona began with a vision to transform the urban landscape while honoring the natural environment."
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:35
+msgid "What started as a small team with big ideas has grown into a renowned architectural practice, known for innovative designs that stand the test of time."
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:46
+msgid "Top rated Australian company"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:70
+msgid "25+"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:74
+msgid "Years in Business"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:80
+msgid "30"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:84
+msgid "LEED-certified buildings"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:92
+msgid "500+"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:96
+msgid "Completed Projects"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:102
+msgid "98%"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:106
+msgid "Client Satisfaction Rate"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:114
+msgid "We Believe in Transparent Processes And Honest Communication"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:119
+msgid "See How We Can Help"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:138
+msgid "Meet Our Visionaries"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:142
+#: inc/patterns/pro/general-team-real-estate.php:19
+msgid "At Ona, our strength lies in the diverse talents and expertise of our team. Each member brings a unique perspective, contributing to our innovative and holistic approach to architecture."
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:155
+msgid "Michael Okonkwo"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:159
+msgid "Founder"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:183
+msgid "Senior Project Manager"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:203
+msgid "Robert Tanaka"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:207
+msgid "Urban Planning Expert"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:227
+msgid "Emma Larsson"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:231
+msgid "Interior Design Lead"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:253
+#: inc/patterns/pro/general-team-real-estate.php:32
+msgid "Carlos Mendoza"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:257
+#: inc/patterns/pro/general-team-real-estate.php:36
+msgid "3D Visualization Artist"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:277
+#: inc/patterns/pro/general-team-real-estate.php:56
+msgid "Leila Al-Fayed"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:281
+#: inc/patterns/pro/general-team-real-estate.php:60
+msgid "Lead Architect"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:301
+#: inc/patterns/pro/general-team-real-estate.php:80
+msgid "David Weiss"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:305
+#: inc/patterns/pro/general-team-real-estate.php:84
+msgid "Client Relations"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:325
+#: inc/patterns/pro/general-team-real-estate.php:104
+msgid "Aisha Patel"
+msgstr ""
+
+#: inc/patterns/page-about-studio.php:329
+#: inc/patterns/pro/general-team-real-estate.php:108
+msgid "Sustainability Specialist"
+msgstr ""
+
+#: inc/patterns/page-about.php:9
+msgid "Page about"
+msgstr ""
+
+#: inc/patterns/page-about.php:23
+msgid "Living my best life"
+msgstr ""
+
+#: inc/patterns/page-about.php:43
+msgid "“To us, a healthy woman is confident in her own skin, flaws and all.”"
+msgstr ""
+
+#: inc/patterns/page-about.php:88
+msgid "99"
+msgstr ""
+
+#: inc/patterns/page-about.php:92
+msgid "Houses sold in 2021 for my clients"
+msgstr ""
+
+#: inc/patterns/page-about.php:100
+msgid "1,500+"
+msgstr ""
+
+#: inc/patterns/page-about.php:104
+msgid "Cups of coffee drank in courtrooms in 2021"
+msgstr ""
+
+#: inc/patterns/page-about.php:112
+msgid "700K"
+msgstr ""
+
+#: inc/patterns/page-about.php:116
+msgid "Profits gained for my clients and money"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:11
+msgid "Page contact studio"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:18
+msgid "Feel free to contact us anytime, we are happy to help."
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:22
+msgid "We are here to help you with any inquiry. Call us or visit us. Our company values customer support satisfaction. No question has been left unanswered. We resolve everything!"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:33
+msgid "Drop us email"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:37
+msgid "hello@onaagency.com"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:49
+msgid "Call us"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:53
+msgid "0434 622 910"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:65
+msgid "Visit our office"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:69
+msgid "1210 North Avenue Luke Lane<br>IN Avenue Luke Lane 380001"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:79
+msgid "Send us a message"
+msgstr ""
+
+#: inc/patterns/page-contact-studio.php:83
+msgid "We're excited to hear from you! Whether you have a project in mind, a question about our services, or just want to say hello, we're here to listen."
+msgstr ""
+
+#: inc/patterns/page-contact.php:9
+msgid "Page contact"
+msgstr ""
+
+#: inc/patterns/page-contact.php:18
+msgid "Get in touch"
+msgstr ""
+
+#: inc/patterns/page-contact.php:22
+msgid "Feel free to contact me anytime."
+msgstr ""
+
+#: inc/patterns/page-contact.php:30
+msgid "Melbourne's GPO 350 Bourke St Melbourne VIC 3000 Australia"
+msgstr ""
+
+#: inc/patterns/page-contact.php:34
+msgid "Phone: +1-888-1554-456-123"
+msgstr ""
+
+#: inc/patterns/page-contact.php:38
+msgid "Email: "
+msgstr ""
+
+#: inc/patterns/posts-grid-2-columns-masonry.php:9
+msgid "Posts grid 2 columns masonry"
+msgstr ""
+
+#: inc/patterns/posts-grid-2-columns-masonry.php:33
+#: inc/patterns/posts-grid-2-columns-masonry.php:67
+#: inc/patterns/posts-grid-2-columns-masonry.php:95
+#: inc/patterns/posts-grid-2-columns-masonry.php:125
+msgid "No posts found."
+msgstr ""
+
+#: inc/patterns/posts-grid-2-columns-masonry.php:46
+#: inc/patterns/posts-grid-2-columns-sticky-on-scroll-style-3.php:24
+msgid "Featured"
+msgstr ""
+
+#: inc/patterns/posts-grid-2-columns-masonry.php:46
+msgid "Shots"
+msgstr ""
+
+#: inc/patterns/posts-grid-2-columns-no-image.php:9
+msgid "Posts grid 2 columns no image"
+msgstr ""
+
+#: inc/patterns/posts-grid-2-columns-sticky-on-scroll-style-3.php:11
+msgid "Posts grid 2 columns sticky on scroll style 3"
+msgstr ""
+
+#: inc/patterns/posts-grid-2-columns-sticky-on-scroll-style-3.php:17
+msgid "Thoughts, stories<br>and ideas"
+msgstr ""
+
+#: inc/patterns/posts-grid-2-columns-sticky-on-scroll.php:9
+msgid "Posts grid 2 columns sticky on scroll"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-environmental.php:9
+msgid "Posts grid 3 columns environmental"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-fashion.php:9
+msgid "Posts grid 3 columns fashion"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-fashion.php:19
+msgid "SEE WHAT WE’VE WRITTEN LATELY"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-fashion.php:43
+#: inc/patterns/pro/posts-slider-startup.php:49
+msgid "View More Posts"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-health.php:9
+msgid "Posts grid 3 columns health"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-health.php:14
+msgid "Editor's Choice"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-health.php:69
+#: inc/patterns/pro/posts-grid-4-columns-agency.php:85
+msgid "More Posts"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-travel-style-2.php:9
+msgid "Posts grid 3 columns travel style 2"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-travel.php:9
+msgid "Posts grid 3 columns travel"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns-with-featured.php:9
+msgid "Posts grid 3 columns with featured"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns.php:9
+msgid "Posts grid 3 columns"
+msgstr ""
+
+#: inc/patterns/posts-grid-3-columns.php:18
+msgid "LATEST NEWS"
+msgstr ""
+
+#: inc/patterns/posts-grid-4-columns-fashion.php:9
+msgid "Posts grid 4 columns fashion"
+msgstr ""
+
+#: inc/patterns/posts-grid-4-columns-fashion.php:18
+msgid "Can't be missed…"
+msgstr ""
+
+#: inc/patterns/posts-grid-4-columns-health.php:9
+msgid "Posts grid 4 columns health"
+msgstr ""
+
+#: inc/patterns/posts-grid-4-columns-health.php:14
+msgid "Trending Articles"
+msgstr ""
+
+#: inc/patterns/posts-grid-4-columns-news.php:9
+msgid "Posts grid 4 columns news"
+msgstr ""
+
+#: inc/patterns/posts-grid-4-columns-news.php:15
+msgid "Editor’s Picks"
+msgstr ""
+
+#: inc/patterns/posts-grid-4-columns.php:9
+msgid "Posts grid 4 columns"
+msgstr ""
+
+#: inc/patterns/posts-grid-4-columns.php:14
+msgid "Editorial Picks"
+msgstr ""
+
+#: inc/patterns/posts-list-creative.php:9
+msgid "Posts list creative"
+msgstr ""
+
+#: inc/patterns/posts-list-minimal-no-image.php:9
+msgid "Posts list minimal no image"
+msgstr ""
+
+#: inc/patterns/posts-list-minimal-no-image.php:15
+msgid "News &amp; Thoughts"
+msgstr ""
+
+#: inc/patterns/posts-list-travel.php:9
+msgid "Posts list travel"
+msgstr ""
+
+#: inc/patterns/posts-list-with-sidebar-health.php:11
+msgid "Posts list with sidebar health"
+msgstr ""
+
+#: inc/patterns/posts-list-with-sidebar-news.php:9
+msgid "Posts list with sidebar news"
+msgstr ""
+
+#: inc/patterns/posts-list-with-sidebar-news.php:17
+msgid "Highlighted News"
+msgstr ""
+
+#: inc/patterns/posts-list-with-sidebar-news.php:60
+msgid "Top Stories"
+msgstr ""
+
+#: inc/patterns/posts-masonry-news.php:9
+msgid "Posts masonry news"
+msgstr ""
+
+#: inc/patterns/posts-mixed-news.php:9
+msgid "Posts mixed news"
+msgstr ""
+
+#: inc/patterns/posts-mixed-news.php:14
+msgid "Latest Articles"
+msgstr ""
+
+#: inc/patterns/posts-mixed-news.php:68
+msgid "Tech News"
+msgstr ""
+
+#: inc/patterns/posts-mixed-with-sidebar-news.php:9
+msgid "Posts mixed with sidebar"
+msgstr ""
+
+#: inc/patterns/pro/footer-agency.php:11
+msgid "Footer agency"
+msgstr ""
+
+#: inc/patterns/pro/footer-agency.php:23
+#: inc/patterns/pro/footer-startup.php:60
+msgid "Enjoy 10% off* your first purchase when you subscribe"
+msgstr ""
+
+#: inc/patterns/pro/footer-agency.php:39
+msgid "Make creative solutions for modern brands"
+msgstr ""
+
+#: inc/patterns/pro/footer-coffee-shop.php:9
+msgid "Footer coffee-shop"
+msgstr ""
+
+#: inc/patterns/pro/footer-coffee-shop.php:24
+msgid "Menu"
+msgstr ""
+
+#: inc/patterns/pro/footer-coffee-shop.php:44
+msgid "Book Reservation"
+msgstr ""
+
+#: inc/patterns/pro/footer-coffee-shop.php:52
+msgid "Favorite Picks"
+msgstr ""
+
+#: inc/patterns/pro/footer-coffee-shop.php:56
+msgid "Organic Coffee"
+msgstr ""
+
+#: inc/patterns/pro/footer-coffee-shop.php:57
+msgid "Best Coffee Mocha"
+msgstr ""
+
+#: inc/patterns/pro/footer-coffee-shop.php:58
+#: inc/patterns/pro/footer-recipes.php:45
+msgid "Tips & Guides"
+msgstr ""
+
+#: inc/patterns/pro/footer-coffee-shop.php:59
+msgid "Coffee Homemade"
+msgstr ""
+
+#: inc/patterns/pro/footer-magazine.php:11
+msgid "Footer magazine"
+msgstr ""
+
+#: inc/patterns/pro/footer-magazine.php:18
+msgid "Subscribe to "
+msgstr ""
+
+#: inc/patterns/pro/footer-magazine.php:18
+msgid "New Posts"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:11
+msgid "Footer online store"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:53
+msgid "Ona Shop is a very slick and clean e-commerce template with endless possibilities."
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:64
+#: inc/patterns/pro/footer-recipes.php:26
+msgid "Information"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:68
+msgid "Our stores"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:69
+msgid "About us"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:70
+msgid "Business with us"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:71
+msgid "Delivery information"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:79
+msgid "Help"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:84
+msgid "Track order"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:85
+msgid "F.A.Q"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:87
+msgid "Returns"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:94
+msgid "Stores & Services"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:98
+msgid "Find a Store"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:99
+msgid "Free Style Help"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:100
+msgid "Alterations & Tailoring"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:101
+msgid "Pop-In Shop"
+msgstr ""
+
+#: inc/patterns/pro/footer-online-store.php:102
+msgid "Virtual Events"
+msgstr ""
+
+#: inc/patterns/pro/footer-real-estate.php:9
+msgid "Footer real estate"
+msgstr ""
+
+#: inc/patterns/pro/footer-real-estate.php:22
+msgid "Get the App"
+msgstr ""
+
+#: inc/patterns/pro/footer-real-estate.php:38
+msgid "Careers"
+msgstr ""
+
+#: inc/patterns/pro/footer-real-estate.php:41
+msgid "Advocacy"
+msgstr ""
+
+#: inc/patterns/pro/footer-real-estate.php:42
+msgid "Feedback"
+msgstr ""
+
+#: inc/patterns/pro/footer-recipes.php:9
+msgid "Footer recipes"
+msgstr ""
+
+#: inc/patterns/pro/footer-recipes.php:44
+msgid "Healthy Recipes"
+msgstr ""
+
+#: inc/patterns/pro/footer-recipes.php:46
+msgid "Breakfast Recipes"
+msgstr ""
+
+#: inc/patterns/pro/footer-recipes.php:47
+msgid "Special Diets"
+msgstr ""
+
+#: inc/patterns/pro/footer-startup.php:11
+msgid "Footer startup"
+msgstr ""
+
+#: inc/patterns/pro/footer-startup.php:32
+msgid "UI/UX Experience Policy"
+msgstr ""
+
+#: inc/patterns/pro/footer-startup.php:35
+msgid "Product Design"
+msgstr ""
+
+#: inc/patterns/pro/footer-startup.php:44
+msgid "Contacts"
+msgstr ""
+
+#: inc/patterns/pro/footer-startup.php:48
+msgid "Experts 26<br>Division St, New York,<br>NY 10002<br>"
+msgstr ""
+
+#: inc/patterns/pro/footer-startup.php:48
+msgid "+1 800 123 456 586"
+msgstr ""
+
+#: inc/patterns/pro/footer-startup.php:54
+#: inc/patterns/sidebar-news.php:79
+msgid "Subscribe"
+msgstr ""
+
+#: inc/patterns/pro/forms-newsletter-coffee-shop.php:11
+msgid "Newsletter coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/forms-newsletter-sidebar.php:11
+msgid "Newsletter sidebar"
+msgstr ""
+
+#: inc/patterns/pro/general-about-rating-agency.php:9
+msgid "About rating agency"
+msgstr ""
+
+#: inc/patterns/pro/general-about-rating-agency.php:36
+#: inc/patterns/pro/general-about-startup.php:46
+msgid "We believe we can make a difference to this world, to this very earth on which we live. We have been destroying the forests for whatever reasons for many years. Our team consists of the great professionals with years of relevant experience."
+msgstr ""
+
+#: inc/patterns/pro/general-about-rating-agency.php:43
+#: inc/patterns/pro/page-about-agency.php:60
+msgid "4.5"
+msgstr ""
+
+#: inc/patterns/pro/general-about-rating-agency.php:70
+#: inc/patterns/pro/page-about-agency.php:87
+msgid "Average Customers Rating"
+msgstr ""
+
+#: inc/patterns/pro/general-about-startup.php:9
+msgid "About startup"
+msgstr ""
+
+#: inc/patterns/pro/general-about-startup.php:36
+msgid "Benefits"
+msgstr ""
+
+#: inc/patterns/pro/general-about-startup.php:42
+msgid "We build digital future"
+msgstr ""
+
+#: inc/patterns/pro/general-about-startup.php:51
+msgid "High standards"
+msgstr ""
+
+#: inc/patterns/pro/general-about-startup.php:75
+#: inc/patterns/pro/general-about-startup.php:104
+#: inc/patterns/pro/general-about-startup.php:133
+#: inc/patterns/pro/general-about-startup.php:162
+msgid "Through our years of experience, we've also learned that while each channel has its own set of advantages, they all work best when strategically paired with other channels."
+msgstr ""
+
+#: inc/patterns/pro/general-about-startup.php:80
+msgid "Focus on people"
+msgstr ""
+
+#: inc/patterns/pro/general-about-startup.php:109
+msgid "Different thinking"
+msgstr ""
+
+#: inc/patterns/pro/general-about-startup.php:138
+msgid "Business Innovation"
+msgstr ""
+
+#: inc/patterns/pro/general-benefits-coffee-shop.php:9
+msgid "Benefits coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-benefits-coffee-shop.php:25
+msgid "Strong Coffee"
+msgstr ""
+
+#: inc/patterns/pro/general-benefits-coffee-shop.php:37
+msgid "Unique Flavor"
+msgstr ""
+
+#: inc/patterns/pro/general-benefits-coffee-shop.php:53
+msgid "Full Rich Aroma"
+msgstr ""
+
+#: inc/patterns/pro/general-benefits-online-store.php:9
+msgid "Benefits online store"
+msgstr ""
+
+#: inc/patterns/pro/general-benefits-online-store.php:17
+#: inc/patterns/pro/page-faq-online-store.php:94
+msgid "Worldwide Shipping"
+msgstr ""
+
+#: inc/patterns/pro/general-benefits-online-store.php:21
+#: inc/patterns/pro/general-benefits-online-store.php:33
+#: inc/patterns/pro/general-benefits-online-store.php:45
+#: inc/patterns/pro/page-faq-online-store.php:98
+#: inc/patterns/pro/page-faq-online-store.php:110
+#: inc/patterns/pro/page-faq-online-store.php:122
+msgid "Free shipping on all US order or order above $100"
+msgstr ""
+
+#: inc/patterns/pro/general-benefits-online-store.php:29
+#: inc/patterns/pro/page-faq-online-store.php:106
+msgid "30 Days Guarantee"
+msgstr ""
+
+#: inc/patterns/pro/general-benefits-online-store.php:41
+#: inc/patterns/pro/page-faq-online-store.php:118
+msgid "100% Payment Secure"
+msgstr ""
+
+#: inc/patterns/pro/general-contact-locations-coffee-shop.php:9
+msgid "Contact locations coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-contact-locations-coffee-shop.php:18
+#: inc/patterns/pro/page-contact-coffee-shop.php:31
+msgid "Location 1"
+msgstr ""
+
+#: inc/patterns/pro/general-contact-locations-coffee-shop.php:24
+#: inc/patterns/pro/page-contact-coffee-shop.php:37
+msgid "103 North Loundoun Street., Winchester, VA<br>+63 9202740366"
+msgstr ""
+
+#: inc/patterns/pro/general-contact-locations-coffee-shop.php:48
+#: inc/patterns/pro/page-contact-coffee-shop.php:61
+msgid "Location 2"
+msgstr ""
+
+#: inc/patterns/pro/general-contact-locations-coffee-shop.php:54
+#: inc/patterns/pro/page-contact-coffee-shop.php:67
+msgid "Lake House, 13 Hanway Square, London, England<br>+387648592568"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-agency.php:9
+msgid "Hero agency"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-agency.php:18
+msgid "We are Creative Agency"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-agency.php:22
+msgid "We continuosly seek between design and technology. Our team hand picked to provide the right balance of skills to work."
+msgstr ""
+
+#: inc/patterns/pro/general-hero-agency.php:38
+msgid "We’ve helped businesses to craft honest, emotional experiences through strategy, brand development, and web design."
+msgstr ""
+
+#: inc/patterns/pro/general-hero-coffee-shop.php:9
+msgid "Hero coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-magazine-post-slider.php:9
+msgid "Hero magazine post slider"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-magazine-post-slider.php:15
+msgid "Hey, See our "
+msgstr ""
+
+#: inc/patterns/pro/general-hero-magazine-post-slider.php:15
+msgid "thoughts"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-magazine-post-slider.php:15
+msgid "stories"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-magazine-post-slider.php:15
+msgid " and "
+msgstr ""
+
+#: inc/patterns/pro/general-hero-magazine-post-slider.php:15
+msgid "ideas."
+msgstr ""
+
+#: inc/patterns/pro/general-hero-magazine-post-slider.php:20
+#: inc/patterns/pro/page-about-agency.php:19
+#: inc/patterns/pro/page-archive-projects.php:18
+#: inc/patterns/pro/page-services-agency.php:19
+msgid "Ona is a modern classic blog theme. Use this theme for company blog, magazine, niche or personal blog."
+msgstr ""
+
+#: inc/patterns/pro/general-hero-magazine-post-slider.php:31
+msgid "Get started with our "
+msgstr ""
+
+#: inc/patterns/pro/general-hero-magazine-post-slider.php:31
+msgid "best stories"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-online-store.php:9
+msgid "Hero online store"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-online-store.php:19
+#: inc/patterns/pro/general-hero-slider-online-store.php:16
+msgid "New Home Collection"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-online-store.php:24
+#: inc/patterns/pro/general-hero-slider-online-store.php:21
+#: inc/patterns/pro/general-hero-slider-online-store.php:35
+#: inc/patterns/pro/general-hero-slider-online-store.php:49
+#: inc/patterns/pro/general-promo-boxes-online-store.php:23
+#: inc/patterns/pro/general-promo-boxes-online-store.php:39
+#: inc/patterns/pro/general-promo-boxes-online-store.php:55
+#: inc/patterns/pro/general-promo-online-store.php:37
+msgid "Shop Now"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-real-estate.php:9
+msgid "Hero real estate"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-real-estate.php:15
+msgid "Find Your Dream Home"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-real-estate.php:15
+msgid "With No Commissions"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-slider-online-store.php:9
+msgid "Hero slider online store"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-slider-online-store.php:30
+msgid "Decor Ideas For Your Room"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-slider-online-store.php:44
+msgid "Simple and Minimal Design"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-slider-online-store.php:53
+msgid "Previous"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-startup.php:9
+msgid "Hero startup"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-startup.php:17
+msgid "Building digital products, Brands and experience"
+msgstr ""
+
+#: inc/patterns/pro/general-hero-startup.php:30
+msgid "We’ve helped businesses to craft honest, emotional experiences through strategy, brand development, and web design. We continuosly seek between design and technology."
+msgstr ""
+
+#: inc/patterns/pro/general-hero-startup.php:34
+#: inc/patterns/pro/page-about-startup.php:45
+msgid "Our team hand picked to provide the right balance of skills to work."
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-agency.php:9
+msgid "Icon boxes agency"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-agency.php:22
+#: inc/patterns/pro/page-about-agency.php:42
+msgid "Our custom-built WordPress themes are beautiful, fast, and search-optimized to help your business succeed. Simple. Powerful. Flexible. Experience. Reliability and choice with 24/7 support that acts as your extended team."
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-agency.php:37
+#: inc/patterns/pro/page-services-agency.php:48
+#: inc/patterns/pro/page-services-agency.php:64
+msgid "High-Quality Products"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-agency.php:41
+#: inc/patterns/pro/general-icon-boxes-agency.php:63
+#: inc/patterns/pro/general-icon-boxes-agency.php:85
+#: inc/patterns/pro/general-icon-boxes-agency.php:107
+#: inc/patterns/pro/general-icon-boxes-startup.php:41
+#: inc/patterns/pro/general-icon-boxes-startup.php:59
+#: inc/patterns/pro/general-icon-boxes-startup.php:77
+#: inc/patterns/pro/page-services-agency.php:52
+#: inc/patterns/pro/page-services-agency.php:68
+#: inc/patterns/pro/page-services-agency.php:86
+#: inc/patterns/pro/page-services-agency.php:102
+#: inc/patterns/pro/page-services-agency.php:118
+#: inc/patterns/pro/page-services-agency.php:134
+msgid "Our design team will spend time to ensure the principles."
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-agency.php:59
+msgid "UI/UX Creative Design"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-agency.php:103
+#: inc/patterns/pro/page-services-agency.php:98
+msgid "Marketing Strategy"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-agency.php:119
+msgid "More Services"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-startup.php:9
+msgid "Icon boxes startup"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-startup.php:17
+msgid "WHAT WE DO"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-startup.php:23
+msgid "Discover how we work to deliver outstanding results"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-startup.php:37
+msgid "Effective Strategy Development"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-startup.php:55
+msgid "Software development process"
+msgstr ""
+
+#: inc/patterns/pro/general-icon-boxes-startup.php:73
+msgid "Automated testing and support"
+msgstr ""
+
+#: inc/patterns/pro/general-instagram-feed-online-store.php:9
+msgid "Instagram feed online store"
+msgstr ""
+
+#: inc/patterns/pro/general-instagram-feed-online-store.php:18
+msgid "Digg the New Looks"
+msgstr ""
+
+#: inc/patterns/pro/general-instagram-feed-online-store.php:23
+msgid "Sed gravida ornare vestibulum turpis quam urna aliquam. Available for a limited time."
+msgstr ""
+
+#: inc/patterns/pro/general-intro-coffee-shop.php:9
+msgid "Intro coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-intro-coffee-shop.php:26
+#: inc/patterns/pro/general-promo-schedule-coffee-shop.php:22
+#: inc/patterns/pro/page-about-coffee-shop.php:37
+msgid "Welcome to our"
+msgstr ""
+
+#: inc/patterns/pro/general-intro-coffee-shop.php:30
+#: inc/patterns/pro/page-about-coffee-shop.php:41
+msgid "Coffee Moments That You'll Treasure"
+msgstr ""
+
+#: inc/patterns/pro/general-intro-coffee-shop.php:34
+#: inc/patterns/pro/page-about-coffee-shop.php:45
+msgid "Volutpat maecenas volutpat. Iaculis at erat pellentesque adipiscing. Praesent tristique magna sit amet. Id leo in vitae turpis massa sed diam vel quam elementum."
+msgstr ""
+
+#: inc/patterns/pro/general-intro-coffee-shop.php:38
+#: inc/patterns/pro/page-about-coffee-shop.php:49
+msgid "Praesent tristique magna sit amet purus gravida quis blandit. Cursus in hac habitasse platea dictumst quisque sagittis. Eu turpis egestas pretium aenean pharetra magna ullam corper."
+msgstr ""
+
+#: inc/patterns/pro/general-listing-with-filter.php:17
+msgid "Listing with filter"
+msgstr ""
+
+#: inc/patterns/pro/general-listing-with-filter.php:26
+msgid "Featured Listings"
+msgstr ""
+
+#: inc/patterns/pro/general-locations-with-cta.php:15
+msgid "Locations with CTA"
+msgstr ""
+
+#: inc/patterns/pro/general-locations-with-cta.php:24
+msgid "Browse by Location"
+msgstr ""
+
+#: inc/patterns/pro/general-locations-with-cta.php:28
+msgid "Discover your dream destination in our curated collection of prime locations. From vibrant urban centers to serene suburban landscapes, our expertly selected neighborhoods offer something for every lifestyle and budget."
+msgstr ""
+
+#: inc/patterns/pro/general-locations-with-cta.php:34
+msgid "View All Locations"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:9
+msgid "Menu coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:14
+#: inc/patterns/pro/page-menu-coffee-shop.php:26
+msgid "Choose and try"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:18
+#: inc/patterns/pro/page-menu-coffee-shop.php:30
+msgid "Today’s offer"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:27
+#: inc/patterns/pro/page-menu-coffee-shop.php:39
+msgid "Cafe Latte"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:31
+#: inc/patterns/pro/page-menu-coffee-shop.php:43
+msgid "Fresh brewed coffee"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:36
+#: inc/patterns/pro/general-menu-coffee-shop.php:156
+#: inc/patterns/pro/page-menu-coffee-shop.php:48
+#: inc/patterns/pro/page-menu-coffee-shop.php:212
+msgid "$3.45"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:49
+#: inc/patterns/pro/page-menu-coffee-shop.php:61
+msgid "Ice Coffee"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:53
+#: inc/patterns/pro/page-menu-coffee-shop.php:65
+msgid "Cold brewed espresso"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:59
+#: inc/patterns/pro/page-menu-coffee-shop.php:71
+msgid "$2.20"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:64
+#: inc/patterns/pro/page-menu-coffee-shop.php:76
+msgid "Exquisite taste"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:75
+#: inc/patterns/pro/page-menu-coffee-shop.php:87
+msgid "Espresso"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:79
+#: inc/patterns/pro/page-menu-coffee-shop.php:91
+#: inc/patterns/pro/page-menu-coffee-shop.php:113
+#: inc/patterns/pro/page-menu-coffee-shop.php:135
+#: inc/patterns/pro/page-menu-coffee-shop.php:229
+#: inc/patterns/pro/page-menu-coffee-shop.php:251
+msgid "Rich espresso with milk"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:84
+#: inc/patterns/pro/page-menu-coffee-shop.php:96
+msgid "$2.10"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:99
+#: inc/patterns/pro/page-menu-coffee-shop.php:155
+msgid "Cakes / Pastries"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:103
+#: inc/patterns/pro/page-menu-coffee-shop.php:159
+msgid "Apple / Mango / Watermelon / Banana / Strawberry."
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:109
+#: inc/patterns/pro/page-menu-coffee-shop.php:165
+msgid "$10"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:114
+#: inc/patterns/pro/page-menu-coffee-shop.php:170
+#: inc/tgmpa/class-tgm-plugin-activation.php:2424
+msgid "Recommended"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:125
+#: inc/patterns/pro/page-menu-coffee-shop.php:181
+msgid "Mocha"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:129
+#: inc/patterns/pro/page-menu-coffee-shop.php:185
+msgid "Espresso, mocha, milk"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:134
+#: inc/patterns/pro/page-menu-coffee-shop.php:190
+msgid "$3.80"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:147
+#: inc/patterns/pro/page-menu-coffee-shop.php:203
+msgid "Cappucino"
+msgstr ""
+
+#: inc/patterns/pro/general-menu-coffee-shop.php:151
+#: inc/patterns/pro/page-menu-coffee-shop.php:207
+msgid "Espresso and milk"
+msgstr ""
+
+#: inc/patterns/pro/general-page-title-coffee-shop.php:9
+msgid "Page title coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-page-title-online-store.php:9
+msgid "Page title online store"
+msgstr ""
+
+#: inc/patterns/pro/general-page-title-online-store.php:14
+#: inc/patterns/pro/header-online-store.php:56
+msgid "Shop"
+msgstr ""
+
+#: inc/patterns/pro/general-partner-logos-agency.php:9
+msgid "Partner logos agency"
+msgstr ""
+
+#: inc/patterns/pro/general-partner-logos-agency.php:15
+#: inc/patterns/pro/page-about-agency.php:52
+msgid "Trusted by over 250,000+ Clients worldwide"
+msgstr ""
+
+#: inc/patterns/pro/general-partner-logos-online-store.php:9
+msgid "Partner logos online store"
+msgstr ""
+
+#: inc/patterns/pro/general-partner-logos-startup.php:9
+msgid "Partner logos startup"
+msgstr ""
+
+#: inc/patterns/pro/general-partner-logos-startup.php:18
+msgid "our clients"
+msgstr ""
+
+#: inc/patterns/pro/general-partner-logos-startup.php:24
+msgid "Trusted by hundreds of brands"
+msgstr ""
+
+#: inc/patterns/pro/general-product-single.php:9
+msgid "Single product"
+msgstr ""
+
+#: inc/patterns/pro/general-products-grid-coffee-shop.php:9
+msgid "Products grid coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-products-grid-coffee-shop.php:14
+msgid "available here"
+msgstr ""
+
+#: inc/patterns/pro/general-products-grid-coffee-shop.php:18
+msgid "Coffee Aroma"
+msgstr ""
+
+#: inc/patterns/pro/general-products-grid-online-store.php:9
+msgid "Products grid online store"
+msgstr ""
+
+#: inc/patterns/pro/general-products-grid-online-store.php:14
+msgid "Featured Collection"
+msgstr ""
+
+#: inc/patterns/pro/general-products-grid-online-store.php:18
+msgid "New Arrivals"
+msgstr ""
+
+#: inc/patterns/pro/general-projects-masonry-startup.php:9
+msgid "Projects masonry startup"
+msgstr ""
+
+#: inc/patterns/pro/general-projects-masonry-startup.php:17
+msgid "Portfolio"
+msgstr ""
+
+#: inc/patterns/pro/general-projects-masonry-startup.php:23
+msgid "Our Completed Projects"
+msgstr ""
+
+#: inc/patterns/pro/general-projects-masonry-startup.php:31
+#: inc/patterns/pro/page-archive-projects.php:28
+msgid "Load More"
+msgstr ""
+
+#: inc/patterns/pro/general-projects-slider.php:9
+msgid "Projects slider"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-boxes-online-store.php:9
+msgid "Promo boxes online store"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-boxes-online-store.php:17
+msgid "Kitchen &amp; Dinning"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-boxes-online-store.php:33
+msgid "Decor &amp; Gifts"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-boxes-online-store.php:49
+msgid "Home Furniture"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-online-store.php:9
+msgid "Promo online store"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-online-store.php:24
+msgid "SUMMER TRENDS"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-online-store.php:28
+msgid "Our Must Haves"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-online-store.php:32
+msgid "Focus on engaging, reusable content that decrease the cost per leads while helps you to increase profits margin."
+msgstr ""
+
+#: inc/patterns/pro/general-promo-schedule-coffee-shop.php:9
+msgid "Promo schedule coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-schedule-coffee-shop.php:26
+msgid "Premium Coffee Blends for Everyone"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-schedule-coffee-shop.php:30
+msgid "Volutpat maecenas volutpat. Iaculis at erat pellentesque adipiscing. Praesent tristique magna sit amet."
+msgstr ""
+
+#: inc/patterns/pro/general-promo-schedule-coffee-shop.php:38
+msgid "Monday to Friday"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-schedule-coffee-shop.php:42
+msgid "07AM - 18PM"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-schedule-coffee-shop.php:55
+msgid "Saturday &amp; Sunday"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-schedule-coffee-shop.php:59
+msgid "08AM - 19PM"
+msgstr ""
+
+#: inc/patterns/pro/general-promo-schedule-coffee-shop.php:71
+msgid "1-888-925-8067"
+msgstr ""
+
+#: inc/patterns/pro/general-properties-grid.php:9
+msgid "Properties Grid"
+msgstr ""
+
+#: inc/patterns/pro/general-quote-agency.php:9
+msgid "Quote agency"
+msgstr ""
+
+#: inc/patterns/pro/general-quote-agency.php:20
+msgid "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu. Excepteur sint occaecat cupidatat non proident, sunt in. Praesent sit amet purus non nibh commodo convallis."
+msgstr ""
+
+#: inc/patterns/pro/general-quote-coffee-shop.php:9
+msgid "Quote coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-quote-coffee-shop.php:14
+#: inc/patterns/pro/page-about-coffee-shop.php:57
+msgid "“Launch your creative ideas. Whatever you imagine we will make it happen with our team of specialists.”"
+msgstr ""
+
+#: inc/patterns/pro/general-quote-coffee-shop.php:18
+#: inc/patterns/pro/page-about-coffee-shop.php:61
+msgid "— Matt Mullenweg, 2017"
+msgstr ""
+
+#: inc/patterns/pro/general-team-agency.php:9
+msgid "Team agency"
+msgstr ""
+
+#: inc/patterns/pro/general-team-agency.php:34
+#: inc/patterns/pro/general-team-agency.php:58
+#: inc/patterns/pro/general-team-agency.php:82
+#: inc/patterns/pro/general-team-agency.php:108
+#: inc/patterns/pro/general-team-agency.php:132
+#: inc/patterns/pro/general-team-agency.php:156
+#: inc/patterns/pro/page-about-agency.php:116
+#: inc/patterns/pro/page-about-agency.php:140
+#: inc/patterns/pro/page-about-agency.php:164
+#: inc/patterns/pro/page-about-agency.php:190
+#: inc/patterns/pro/page-about-agency.php:214
+#: inc/patterns/pro/page-about-agency.php:238
+msgid "Non dolere, inquam, istud quam vim habeat postea viderouid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere, quid diceret."
+msgstr ""
+
+#: inc/patterns/pro/general-team-coffee-shop.php:9
+msgid "Team coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-team-coffee-shop.php:21
+#: inc/patterns/pro/page-about-coffee-shop.php:74
+msgid "Zander Kline"
+msgstr ""
+
+#: inc/patterns/pro/general-team-coffee-shop.php:25
+#: inc/patterns/pro/general-team-coffee-shop.php:41
+#: inc/patterns/pro/general-team-coffee-shop.php:57
+#: inc/patterns/pro/page-about-coffee-shop.php:78
+#: inc/patterns/pro/page-about-coffee-shop.php:94
+#: inc/patterns/pro/page-about-coffee-shop.php:110
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing lectus"
+msgstr ""
+
+#: inc/patterns/pro/general-team-coffee-shop.php:37
+#: inc/patterns/pro/page-about-coffee-shop.php:90
+msgid "Kylia Henderson"
+msgstr ""
+
+#: inc/patterns/pro/general-team-coffee-shop.php:53
+#: inc/patterns/pro/page-about-coffee-shop.php:106
+msgid "Samantha Wood"
+msgstr ""
+
+#: inc/patterns/pro/general-team-real-estate.php:9
+msgid "Team real estate"
+msgstr ""
+
+#: inc/patterns/pro/general-team-real-estate.php:15
+msgid "Meet Our Agents"
+msgstr ""
+
+#: inc/patterns/pro/general-testimonials-slider-coffee-shop.php:9
+msgid "Testimonials slider coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/general-testimonials-slider-coffee-shop.php:23
+#: inc/patterns/pro/general-testimonials-slider-coffee-shop.php:35
+#: inc/patterns/pro/general-testimonials-slider-coffee-shop.php:47
+msgid "Fantastic coffee that was extremely fresh. Everything we ordered was very good and we even indulged in 3 desserts. Every detail has been taken care these team are really amazing and talented!"
+msgstr ""
+
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:9
+msgid "Testimonials slider real estate"
+msgstr ""
+
+#: inc/patterns/pro/general-testimonials-slider-real-estate.php:19
+msgid "Here’s what people think about the Ona Real Estate"
+msgstr ""
+
+#: inc/patterns/pro/general-testimonials-slider.php:9
+msgid "Testimonials slider"
+msgstr ""
+
+#: inc/patterns/pro/general-testimonials-slider.php:18
+msgid "Latest Buyers Reviews"
+msgstr ""
+
+#: inc/patterns/pro/general-testimonials-startup.php:9
+msgid "Testimonials startup"
+msgstr ""
+
+#: inc/patterns/pro/general-testimonials-startup.php:22
+msgid "Great theme for marketing, fast and well thought out. Added to the design style, which I think is excellent, for me the choice of FSE makes it almost perfect."
+msgstr ""
+
+#: inc/patterns/pro/general-testimonials-startup.php:26
+msgid "John Doe, Creative Director"
+msgstr ""
+
+#: inc/patterns/pro/general-video-lightbox-coffee-shop.php:9
+msgid "Video lightbox coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/header-agency.php:9
+msgid "Header agency"
+msgstr ""
+
+#: inc/patterns/pro/header-agency.php:25
+#: inc/patterns/pro/header-startup.php:25
+msgid "Projects"
+msgstr ""
+
+#: inc/patterns/pro/header-agency.php:26
+#: inc/patterns/pro/header-magazine-transparent.php:25
+#: inc/patterns/pro/header-magazine.php:25
+#: inc/patterns/pro/header-online-store.php:50
+#: inc/patterns/pro/header-startup.php:26
+msgid "Pages"
+msgstr ""
+
+#: inc/patterns/pro/header-agency.php:38
+msgid "Call Us: +1-888-1554"
+msgstr ""
+
+#: inc/patterns/pro/header-coffee-shop.php:9
+msgid "Header coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/header-magazine-transparent.php:9
+msgid "Header magazine transparent"
+msgstr ""
+
+#: inc/patterns/pro/header-magazine.php:9
+msgid "Header magazine"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:9
+msgid "Header online store"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:15
+msgid "Free shipping over $100 with free returns"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:22
+#: inc/patterns/pro/header-online-store.php:53
+#: inc/patterns/pro/page-faq-online-store.php:15
+msgid "FAQ"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:57
+msgid "Catalog"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:58
+#: inc/patterns/pro/header-online-store.php:77
+msgid "Cart"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:59
+msgid "Checkout"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:60
+msgid "Account"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:78
+msgid "Login"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:90
+msgid "GET "
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:90
+msgid "25% SALE"
+msgstr ""
+
+#: inc/patterns/pro/header-online-store.php:90
+msgid " WITH COUPON CODE ONAJKI25"
+msgstr ""
+
+#: inc/patterns/pro/header-recipes.php:9
+msgid "Header recipes"
+msgstr ""
+
+#: inc/patterns/pro/header-startup.php:9
+msgid "Header startup"
+msgstr ""
+
+#: inc/patterns/pro/header-startup.php:38
+msgid "Call Us: +1-888-1554-127"
+msgstr ""
+
+#: inc/patterns/pro/page-about-agency.php:9
+msgid "Page about agency"
+msgstr ""
+
+#: inc/patterns/pro/page-about-agency.php:28
+msgid "We are here to make sure your business endeavor succeeds."
+msgstr ""
+
+#: inc/patterns/pro/page-about-coffee-shop.php:11
+msgid "Page about coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:9
+msgid "Page about startup"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:27
+msgid "We focus on creative and strategically driven innovation."
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:41
+msgid "Ona helped businesses to craft honest, emotional experiences through strategy, brand development, and web design. We continuosly seek between design and technology."
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:63
+msgid "36"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:67
+#: inc/patterns/pro/page-services-agency.php:167
+msgid "Sucessful Projects"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:73
+msgid "100%"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:77
+msgid "Achieved ROI"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:83
+msgid "550K"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:93
+msgid "3x"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:97
+msgid "Increased Profits"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:115
+msgid "Meet our team"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:133
+msgid "Kate Williams"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:137
+msgid "UI/UX Designer"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:149
+msgid "Harry Newman"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:153
+msgid "WordPress Developer"
+msgstr ""
+
+#: inc/patterns/pro/page-about-startup.php:165
+msgid "Meghan Scott"
+msgstr ""
+
+#: inc/patterns/pro/page-archive-projects.php:9
+msgid "Page archive projects"
+msgstr ""
+
+#: inc/patterns/pro/page-archive-projects.php:14
+msgid "Our Projects"
+msgstr ""
+
+#: inc/patterns/pro/page-archive-properties.php:9
+msgid "Page archive properties"
+msgstr ""
+
+#: inc/patterns/pro/page-archive-properties.php:90
+msgid "No posts found"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-agency.php:11
+msgid "Page contact agency"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-agency.php:18
+msgid "Get in touch,<br>Feel free to contact"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-agency.php:24
+msgid "We are here to help you with any inquiry. Call us or visit us. Easily accessible customer service is crucial in today's 24-hour, online business environment The company values customer support satisfaction. No question has been left unanswered. We resolve everything!"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-agency.php:46
+msgid "Hotline"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-agency.php:50
+msgid "+1-888-1554-456-123"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-agency.php:68
+msgid "Email Us"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-agency.php:72
+msgid "supportinfo@gmail.com"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-agency.php:88
+msgid "Address"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-agency.php:92
+msgid "13 Hanway Square, London"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-coffee-shop.php:12
+msgid "Page contact coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/page-contact-coffee-shop.php:78
+msgid "Feel Free To Contact Us If You Have Questions"
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:9
+msgid "Page FAQ online store"
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:24
+msgid "What are your shipping and return policies?"
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:28
+msgid "Monthly Tracked People are unique visitors that engage in an Event on your website or with your product, that gets tracked by you in Margin. Learn more about Margin Analyze to see how Events and Properties work together for you to gain insight into everything people do."
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:34
+msgid "Do you accept international credit cards?"
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:38
+msgid "While it sometimes makes sense to work with prospective clients on a trial basis, making sure they can ultimately afford your services is a big consideration when qualifying a lead. Analyze to see how Events and Properties work together for you to gain insight into everything people do."
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:44
+msgid "How long does it take for me to get a refund?"
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:48
+msgid "Clients with a good history of payments who are easy to work with will save you time and stress down the road and make for a much better business relationship. Learn more about Margin Analyze to see how Events and Properties work together for you to gain insight into everything people do."
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:56
+msgid "Do you ship internationally?"
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:60
+msgid "Do a quick scan of your available offers to see how you can best serve your prospective clients needs.. Emails are simply the number of emails that you send per month segments you define. Emails are simply the number of emails that you send per month."
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:66
+msgid "How can I cancel or change my order?"
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:70
+msgid "You use Campaigns to create and manage the delivery of email campaigns to any customer segments you define. Emails are simply the number of emails that you send per month. Analyze to see how Events and Properties work together for you to gain insight into everything people do."
+msgstr ""
+
+#: inc/patterns/pro/page-faq-online-store.php:81
+msgid "Any Question? "
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:11
+msgid "Page menu coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:19
+msgid "Our Menu"
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:109
+msgid "Greek Coffee"
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:118
+msgid "$4.10"
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:131
+msgid "Americano"
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:140
+msgid "$4.95"
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:225
+msgid "Irish Coffee"
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:234
+msgid "$4.45"
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:247
+msgid "Cold Latte"
+msgstr ""
+
+#: inc/patterns/pro/page-menu-coffee-shop.php:256
+msgid "$3.75"
+msgstr ""
+
+#: inc/patterns/pro/page-reservation-coffee-shop.php:11
+msgid "Page reservation coffee shop"
+msgstr ""
+
+#: inc/patterns/pro/page-reservation-coffee-shop.php:19
+msgid "Reservation"
+msgstr ""
+
+#: inc/patterns/pro/page-reservation-coffee-shop.php:27
+msgid "Thank you for choosing to reserve table at our coffeeshop. Choose your date and time and enter your information. If you have any questions, please call <a href=\"tel:+639202740366\">+63 9202740366</a> or email <a href=\"mailto:info@onacoffeeshop.com\">info@onacoffeeshop.com"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:9
+msgid "Page services agency"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:32
+msgid "Business delivery services"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:36
+#: inc/patterns/pro/page-services-agency.php:157
+msgid "Our custom-built WordPress themes are beautiful, fast, and search-optimized to help your business succeed."
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:114
+msgid "Unique Technologies"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:130
+msgid "Content Writing"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:153
+msgid "Branding, websites and digital experiences, crafted with brilliance, love"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:163
+msgid "96k+"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:171
+#: inc/patterns/pro/page-services-agency.php:185
+msgid "The most comprehensive complete system warranty in the solar industry."
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:177
+msgid "550k+"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:203
+msgid "Personal"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:208
+#: inc/patterns/pro/page-services-agency.php:286
+msgid "$"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:212
+msgid "25"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:216
+#: inc/patterns/pro/page-services-agency.php:294
+msgid "/  Month"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:221
+#: inc/patterns/pro/page-services-agency.php:299
+msgid "Access all of our exclusive benefits for this low monthly price"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:230
+#: inc/patterns/pro/page-services-agency.php:260
+#: inc/patterns/pro/page-services-agency.php:308
+#: inc/patterns/pro/page-services-agency.php:338
+msgid "Adipiscing eli sed eiusmod"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:240
+#: inc/patterns/pro/page-services-agency.php:318
+msgid "Tempor incididunt"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:250
+#: inc/patterns/pro/page-services-agency.php:328
+msgid "Labore et dolore magna"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:266
+#: inc/patterns/pro/page-services-agency.php:344
+msgid "Subscribe Now"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:271
+#: inc/patterns/pro/page-services-agency.php:349
+msgid "Cancel Anytime"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:281
+msgid "Enterprise"
+msgstr ""
+
+#: inc/patterns/pro/page-services-agency.php:290
+msgid "275"
+msgstr ""
+
+#: inc/patterns/pro/page-single-project.php:9
+msgid "Page single project"
+msgstr ""
+
+#: inc/patterns/pro/page-single-project.php:30
+msgid "We\\’re Awesome"
+msgstr ""
+
+#: inc/patterns/pro/page-single-project.php:34
+msgid "Nulla porttitor accumsan tincidunt praesent sapien massa convallis pellen tesque necp egestas non nisi vivamus suscipite nulla porttitor accumsan tincidunt praesent sapien massa convallisa pellentesque. Lorem ipsum dolor sit met, consectetur adipiscing elit. Integer imperdiet iaculis ipsum aliquet ultricies. Sed a tincidunt enim."
+msgstr ""
+
+#: inc/patterns/pro/page-single-project.php:39
+msgid "Client:</strong> Manhattan"
+msgstr ""
+
+#: inc/patterns/pro/page-single-project.php:43
+msgid "Category:</strong> Branding, Digital"
+msgstr ""
+
+#: inc/patterns/pro/page-single-project.php:47
+msgid "Date:</strong> 17, September 2022"
+msgstr ""
+
+#: inc/patterns/pro/page-single-project.php:51
+msgid "Website:"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:11
+msgid "Page single property"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:26
+msgid "14221 SW 160th Ter, Miami, FL 33177"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:33
+#: inc/patterns/pro/page-single-property.php:37
+msgid "Beds"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:43
+#: inc/patterns/pro/page-single-property.php:47
+msgid "Baths"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:53
+#: inc/patterns/pro/page-single-property.php:57
+msgid "Sq. Ft."
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:76
+msgid "Townhouse"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:80
+msgid "Property type"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:94
+msgid "$390"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:98
+msgid "Price per sq ft"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:112
+msgid "1975"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:116
+msgid "Year built"
+msgstr ""
+
+#: inc/patterns/pro/page-single-property.php:130
+msgid "Contact Agent"
+msgstr ""
+
+#: inc/patterns/pro/page-taxonomy-property-location.php:9
+msgid "Page taxonomy property location"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-2-columns-sticky-on-scroll-style-2.php:9
+msgid "Posts grid 2 columns sticky on scroll style 2"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-2-then-3-columns.php:9
+msgid "Posts grid 2 then 3 columns"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-2-then-3-columns.php:22
+msgid "Our "
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-2-then-3-columns.php:22
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-4-columns-agency.php:9
+msgid "Posts grid 4 columns agency"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-4-columns-agency.php:16
+msgid "Latest articles from our blogs"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-4-columns-offset.php:9
+msgid "Posts grid 4 columns offset"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-4-columns-offset.php:14
+msgid "These are a few of my favorite recipes"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-5-columns-style-2.php:9
+msgid "Posts grid 5 columns style 2"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-5-columns-style-2.php:18
+msgid "Don’t Miss our "
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-5-columns-style-2.php:18
+msgid "Story"
+msgstr ""
+
+#: inc/patterns/pro/posts-grid-5-columns.php:9
+msgid "Posts grid 5 columns"
+msgstr ""
+
+#: inc/patterns/pro/posts-list-with-sidebar.php:11
+msgid "Posts list with sidebar"
+msgstr ""
+
+#: inc/patterns/pro/posts-list-with-sidebar.php:54
+#: inc/patterns/pro/sidebar-about-widget.php:14
+#: inc/patterns/sidebar-default.php:19
+msgid "About Me"
+msgstr ""
+
+#: inc/patterns/pro/posts-list-with-sidebar.php:66
+#: inc/patterns/pro/sidebar-about-widget.php:26
+msgid "I am a food lover, traveler, adventurer.<br>I share my impressions and talk about journeys for inspirations."
+msgstr ""
+
+#: inc/patterns/pro/posts-slider-startup.php:9
+msgid "Posts slider startup"
+msgstr ""
+
+#: inc/patterns/pro/posts-slider-startup.php:17
+msgid "NEWS &amp; LATEST UPDATES"
+msgstr ""
+
+#: inc/patterns/pro/posts-slider-startup.php:23
+msgid "Check our company inside Story"
+msgstr ""
+
+#: inc/patterns/pro/sidebar-about-widget.php:9
+msgid "About widget"
+msgstr ""
+
+#: inc/patterns/pro/sidebar-online-store.php:9
+msgid "Sidebar Online Store"
+msgstr ""
+
+#: inc/patterns/pro/sidebar-online-store.php:16
+msgid "Product Categories"
+msgstr ""
+
+#: inc/patterns/pro/sidebar-online-store.php:22
+#: inc/patterns/pro/sidebar-online-store.php:24
+msgid "Active filters"
+msgstr ""
+
+#: inc/patterns/pro/sidebar-online-store.php:32
+#: inc/patterns/pro/sidebar-online-store.php:34
+msgid "Filter by Season"
+msgstr ""
+
+#: inc/patterns/pro/sidebar-online-store.php:42
+#: inc/patterns/pro/sidebar-online-store.php:44
+msgid "Filter by Color"
+msgstr ""
+
+#: inc/patterns/pro/sidebar-online-store.php:52
+#: inc/patterns/pro/sidebar-online-store.php:54
+msgid "Filter by price"
+msgstr ""
+
+#: inc/patterns/sidebar-default.php:11
+msgid "Sidebar"
+msgstr ""
+
+#: inc/patterns/sidebar-default.php:31
+msgid "I am a food lover, traveler, adventurer. I share my impressions and talk about journeys for inspirations."
+msgstr ""
+
+#: inc/patterns/sidebar-news.php:11
+msgid "Sidebar News"
+msgstr ""
+
+#: inc/patterns/sidebar-news.php:19
+msgid "Let’s Hang Out On Social"
+msgstr ""
+
+#: inc/patterns/sidebar-news.php:54
+msgid "Most Popular"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+#: inc/tgmpa/tgm-plugin-activation.php:100
+msgid "Install Required Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:343
+#: inc/tgmpa/tgm-plugin-activation.php:102
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:345
+#: inc/tgmpa/tgm-plugin-activation.php:103
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:346
+#: inc/tgmpa/tgm-plugin-activation.php:104
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:372
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:378
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:398
+#: inc/tgmpa/tgm-plugin-activation.php:105
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:399
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:400
+#: inc/tgmpa/class-tgm-plugin-activation.php:3311
+#: inc/tgmpa/tgm-plugin-activation.php:106
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:401
+#: inc/tgmpa/class-tgm-plugin-activation.php:3103
+#: inc/tgmpa/tgm-plugin-activation.php:107
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:403
+#: inc/tgmpa/tgm-plugin-activation.php:108
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:405
+#: inc/tgmpa/tgm-plugin-activation.php:109
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: inc/tgmpa/class-tgm-plugin-activation.php:407
+#: inc/tgmpa/tgm-plugin-activation.php:110
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:408
+#: inc/tgmpa/tgm-plugin-activation.php:111
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:409
+#: inc/tgmpa/tgm-plugin-activation.php:112
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:410
+#: inc/tgmpa/tgm-plugin-activation.php:113
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:616
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:617
+msgid "Update Required"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:735
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1042
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1042
+#: inc/tgmpa/class-tgm-plugin-activation.php:1052
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1052
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1243
+#: inc/tgmpa/class-tgm-plugin-activation.php:3099
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: inc/tgmpa/class-tgm-plugin-activation.php:2112
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2440
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2443
+msgid "External Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2446
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2463
+msgid "Not Installed"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2467
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2469
+msgid "Active"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2475
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2478
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2481
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: inc/tgmpa/class-tgm-plugin-activation.php:2490
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2536
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2540
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2544
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2548
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2630
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2638
+msgid "Installed version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2658
+msgid "Available version:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2681
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2695
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2696
+msgid "Source"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2697
+msgid "Type"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2701
+msgid "Version"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2702
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2751
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2756
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2762
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2834
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2873
+msgid "Update"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2907
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2909
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2950
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2952
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3059
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3085
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3310
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3655
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3658
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3660
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3664
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3666
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3667
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3669
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3672
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3674
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3675
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3677
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Show Details"
+msgstr ""
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3682
+msgid "Hide Details"
+msgstr ""
+
+#: inc/tgmpa/tgm-plugin-activation.php:28
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: inc/tgmpa/tgm-plugin-activation.php:33
+msgid "StylizedX"
+msgstr ""
+
+#: inc/tgmpa/tgm-plugin-activation.php:42
+msgid "Ona Core"
+msgstr ""
+
+#: inc/tgmpa/tgm-plugin-activation.php:50
+msgid "DeoBlocks"
+msgstr ""
+
+#: inc/tgmpa/tgm-plugin-activation.php:58
+msgid "Smash Balloon Social Photo Feed"
+msgstr ""
+
+#: inc/tgmpa/tgm-plugin-activation.php:64
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/tgmpa/tgm-plugin-activation.php:70
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/tgmpa/tgm-plugin-activation.php:76
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: inc/tgmpa/tgm-plugin-activation.php:82
+msgid "WooCommerce Variation Swatches"
+msgstr ""
+
+#: index.php:9
+msgid "This theme was built for the WordPress experimental full site editing feature. You need to install and activate the Gutenberg plugin to make it work. "
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header Centered Logo"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header Transparent"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Archive"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Archive Masonry"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Taxonomy Projects"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Single"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Single Layout 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Single Layout 3 With Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Single Project"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Container Wide"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Header and Footer Only"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Layout 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Layout 3 With Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Background Light to White"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Light"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Dark"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Headings"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Text Regular"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Text Light"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Text Lighter"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Background Light"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: theme.json
+#: styles/beige.json
+#: styles/dandelion.json
+#: styles/dark.json
+#: styles/medium-carmine.json
+#: styles/moss-green.json
+#: styles/salmon.json
+#: styles/seascape.json
+msgctxt "Color name"
+msgid "Stroke"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Gilda Display"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Nunito Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Bestermind"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Tiny"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X-Large"
+msgstr ""
+
+#: styles/beige.json
+msgctxt "Style variation name"
+msgid "Beige"
+msgstr ""
+
+#: styles/dandelion.json
+msgctxt "Style variation name"
+msgid "Dandelion"
+msgstr ""
+
+#: styles/dark.json
+msgctxt "Style variation name"
+msgid "Dark"
+msgstr ""
+
+#: styles/medium-carmine.json
+msgctxt "Style variation name"
+msgid "Medium Carmine"
+msgstr ""
+
+#: styles/moss-green.json
+msgctxt "Style variation name"
+msgid "Moss Green"
+msgstr ""
+
+#: styles/salmon.json
+msgctxt "Style variation name"
+msgid "Salmon"
+msgstr ""
+
+#: styles/seascape.json
+msgctxt "Style variation name"
+msgid "Seascape"
+msgstr ""
