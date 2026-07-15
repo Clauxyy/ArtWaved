@@ -19,17 +19,7 @@
 <header class="aw-header" id="home">
 	<div class="aw-container aw-header-inner">
 		<a class="aw-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-			<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
-				<path d="M2 17c2.5 0 2.5-4 5-4s2.5 4 5 4 2.5-4 5-4 2.5 4 5 4"></path>
-				<path d="M2 12c2.5 0 2.5-4 5-4s2.5 4 5 4 2.5-4 5-4 2.5 4 5 4"></path>
-			</svg>
-			<?php
-			if ( has_custom_logo() ) {
-				the_custom_logo();
-			} else {
-				echo '<span>' . esc_html( get_bloginfo( 'name' ) ? get_bloginfo( 'name' ) : 'ARTWAVE' ) . '</span>';
-			}
-			?>
+			<span>ARTWAVE</span>
 		</a>
 
 		<nav class="aw-nav" id="aw-nav" aria-label="<?php esc_attr_e( 'Primary', 'artwave' ); ?>">
