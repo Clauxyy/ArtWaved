@@ -109,6 +109,8 @@ h1, h2, h3, h4 {
   font-size: 12px;
   font-weight: 500;
   transition: color 0.2s ease;
+  margin-top: auto;            /* împinge butonul în partea de jos */
+  align-self: center;      /* sau center, după preferință */
 }
 .aw-link-more:hover { color: var(--aw-fg); }
 
@@ -116,15 +118,20 @@ h1, h2, h3, h4 {
    Header / navigation
    ============================================================ */
 .aw-header {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  z-index: 50;
+  /* position: absolute; */        /* sau fixed, după cum ai nevoie */
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* z-index: 50; */
+  background: var(--aw-bg);  /* negru (#0c0c0c) */
+  width: 100%;               /* asigură lățime completă */
 }
 .aw-header-inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 26px 0;
+  /* nu mai seta background aici, ci pe părinte */
 }
 .aw-logo {
   display: flex;
@@ -134,8 +141,8 @@ h1, h2, h3, h4 {
   letter-spacing: 0.32em;
   font-size: 18px;
   font-weight: 500;
+  margin-left: %;
 }
-.aw-logo svg { width: 22px; height: 22px; color: var(--aw-accent); }
 
 .aw-nav ul {
   display: flex;
@@ -200,6 +207,7 @@ h1, h2, h3, h4 {
 }
 .aw-hero-inner {
   margin: 0;
+  margin-top: 5%;
   position: relative;
   z-index: 1;
   padding: clamp(100px, 15vh, 160px) clamp(20px, 5vw, 100px) clamp(60px, 8vh, 100px) clamp(20px, 4vw, 180px);
@@ -267,10 +275,13 @@ h1, h2, h3, h4 {
   gap: 24px;
 }
 .aw-card {
+  display: flex;
+  flex-direction: column;
   background: var(--aw-card);
   border: 1px solid var(--aw-border);
   overflow: hidden;
   transition: border-color 0.25s ease, transform 0.25s ease;
+  /* păstrează restul stilurilor existente (dacă ai) */
 }
 .aw-card:hover { border-color: var(--aw-accent-dim); transform: translateY(-4px); }
 
@@ -304,15 +315,18 @@ h1, h2, h3, h4 {
 .aw-card-badge svg { width: 24px; height: 24px; }
 
 .aw-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;                     /* ocupă tot spațiul disponibil din card */
   padding: 46px 28px 34px;
   text-align: center;
 }
 .aw-card-body h3 {
-  font-size: 22px;
+  /* titlul rămâne sus */
   margin-bottom: 16px;
-  line-height: 1.25;
 }
 .aw-card-body p {
+  flex: 1;                     /* paragraful crește pentru a umple spațiul */
   color: var(--aw-muted);
   font-size: 14px;
   margin: 0 0 22px;
