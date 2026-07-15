@@ -14,7 +14,7 @@ Text Domain: artwave
    Design tokens
    ============================================================ */
 :root {
-  --aw-bg: #0c0c0c;
+  --aw-bg: pink;
   --aw-bg-alt: #111111;
   --aw-card: #141414;
   --aw-card-hover: #1a1a1a;
