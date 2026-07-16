@@ -373,6 +373,15 @@ h1, h2, h3, h4 {
   font-size: 15px;
 }
 .aw-contact-list svg { width: 18px; height: 18px; color: var(--aw-accent); flex: none; }
+.aw-contact-list a {
+  color: var(--aw-fg);
+  transition: color 0.2s ease;
+}
+.aw-contact-list a:hover,
+.aw-contact-list a:focus-visible {
+  color: var(--aw-accent);
+  text-decoration: underline;
+}
 
 .aw-form { display: flex; flex-direction: column; gap: 14px; }
 .aw-form input,
