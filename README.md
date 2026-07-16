@@ -1,2 +1,0 @@
-# ArtWaved
-A site 
