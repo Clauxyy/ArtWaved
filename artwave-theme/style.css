@@ -126,6 +126,7 @@ h1, h2, h3, h4 {
   background: var(--aw-bg);  /* negru (#0c0c0c) */
   width: 100%;               /* asigură lățime completă */
 }
+
 .aw-header-inner {
   display: flex;
   align-items: center;
@@ -133,6 +134,7 @@ h1, h2, h3, h4 {
   padding: 26px 0;
   /* nu mai seta background aici, ci pe părinte */
 }
+
 .aw-logo {
   display: flex;
   align-items: center;
@@ -141,6 +143,15 @@ h1, h2, h3, h4 {
   letter-spacing: 0.32em;
   font-size: 18px;
   font-weight: 500;
+  text-decoration: none;
+}
+
+.aw-logo-img {
+  margin-top: 1%;
+  height: 3em;        /* înălțimea raportată la font-size (18px * 1.2 ≈ 21.6px) */
+  width: auto;          /* păstrează proporțiile */
+  display: block;
+  object-fit: contain;
 }
 
 .aw-nav ul {
@@ -150,11 +161,13 @@ h1, h2, h3, h4 {
   list-style: none;
   margin: 0; padding: 0;
 }
+
 .aw-nav a {
   font-size: 15px;
   color: var(--aw-fg);
   transition: color 0.2s ease;
 }
+
 .aw-nav a:hover,
 .aw-nav .current-menu-item > a,
 .aw-nav a.is-active { color: var(--aw-accent); }
@@ -167,6 +180,7 @@ h1, h2, h3, h4 {
   cursor: pointer;
   padding: 6px;
 }
+
 .aw-menu-toggle svg { width: 28px; height: 28px; }
 
 /* ============================================================
@@ -206,10 +220,9 @@ h1, h2, h3, h4 {
 }
 .aw-hero-inner {
   margin: 0;
-  margin-top: 5%;
   position: relative;
   z-index: 1;
-  padding: clamp(100px, 15vh, 160px) clamp(20px, 5vw, 100px) clamp(60px, 8vh, 100px) clamp(20px, 4vw, 180px);
+  padding: clamp(60px, 7vh, 100px) clamp(20px, 5vw, 100px) clamp(60px, 8vh, 100px) clamp(20px, 4vw, 180px);
   max-width: clamp(320px, 70%, 900px);
 }
 .aw-hero h1 {
