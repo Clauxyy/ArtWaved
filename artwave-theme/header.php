@@ -19,7 +19,7 @@
 <header class="aw-header" id="home">
 	<div class="aw-container aw-header-inner">
 		<a class="aw-logo" href="">
-			<img src="https://artwaved.ro/wp-content/uploads/2026/07/logo-3.png" alt="ArtWave - logo" class="aw-logo-img">
+			<img src="https://artwaved.ro/wp-content/uploads/2026/07/logo-3.png" class="aw-logo-img">
 			<span>ARTWAVE</span>
 		</a>
 

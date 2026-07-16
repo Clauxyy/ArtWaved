@@ -10,7 +10,8 @@
 <footer class="aw-footer">
 	<div class="aw-container">
 		<div class="aw-footer-inner">
-			<a class="aw-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+			<a class="aw-logo" href="">
+				<img src="https://artwaved.ro/wp-content/uploads/2026/07/logo-3.png" class="aw-logo-img">
 				<span>ARTWAVE</span>
 			</a>
 
