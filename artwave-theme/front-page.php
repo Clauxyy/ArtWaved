@@ -13,7 +13,7 @@ $img = get_template_directory_uri() . '/assets/images';
 <!-- ============================ HERO ============================ -->
 <section class="aw-hero">
 	<div class="aw-hero-bg">
-		<img src="<?php echo esc_url( $img . '/hero.webp' ); ?>" alt="<?php esc_attr_e( 'Aranjament elegant de masă pentru eveniment', 'artwave' ); ?>">
+		<img src="<?php echo esc_url( $img . '/hero.webp' ); ?>" alt="<?php esc_attr_e( 'Aranjament elegant pe malul Dunării pentru eveniment', 'artwave' ); ?>">
 	</div>
 	<div class="aw-container aw-hero-inner">
 		<h1>
@@ -70,25 +70,56 @@ $img = get_template_directory_uri() . '/assets/images';
 <!-- ============================ EVENT TYPES ============================ -->
 <section class="aw-section" id="portofoliu" style="padding-top:0;">
 	<div class="aw-container">
-		<p class="aw-eyebrow"><?php esc_html_e( 'Tipuri de evenimente coordonate', 'artwave' ); ?></p>
+		<p class="aw-eyebrow"><?php esc_html_e( 'EXPERIENȚE PE CARE LE PUTEM CREA ÎMPREUNĂ', 'artwave' ); ?></p>
 		<div class="aw-eyebrow-divider"></div>
 
 		<div class="aw-cards">
-			<!-- Corporate -->
+			<!-- Team -->
 			<article class="aw-card">
 				<div class="aw-card-media">
-					<img src="<?php echo esc_url( $img . '/corporate.png' ); ?>" alt="<?php esc_attr_e( 'Conferință corporate', 'artwave' ); ?>">
+					<img src="<?php echo esc_url( $img . '/teambuilding.png' ); ?>" alt="<?php esc_attr_e( 'Conferință corporate', 'artwave' ); ?>">
 					<span class="aw-card-badge">
 						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/></svg>
 					</span>
 				</div>
 				<div class="aw-card-body">
 					<h3><?php esc_html_e( 'Corporate & Team Building', 'artwave' ); ?></h3>
-					<p><?php esc_html_e( 'Conferințe, întâlniri de business și team building-uri organizate impecabil în Tulcea și Delta Dunării.', 'artwave' ); ?></p>
-					<a class="aw-link-more" href="#contact"><?php esc_html_e( 'Află mai multe', 'artwave' ); ?> &rarr;</a>
+					<p><?php esc_html_e( 'Evenimente corporate și team building-uri organizate impecabil în Tulcea și Delta Dunării.', 'artwave' ); ?></p>
+					<a class="aw-link-more" href="https://artwaved.ro/index.php/corporate/"><?php esc_html_e( 'Află mai multe', 'artwave' ); ?> &rarr;</a>
 				</div>
 			</article>
-
+			<!--Conferinte-->
+			<article class="aw-card">
+				<div class="aw-card-media">
+					<img src="<?php echo esc_url( $img . '/corporate.png' ); ?>" alt="<?php esc_attr_e( 'Conferință corporate', 'artwave' ); ?>">
+					<span class="aw-card-badge">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="1.5"/><path d="M6 15v-4"/><path d="M11 15V8"/><path d="M16 15V6"/><path d="M21 15v-3"/></svg>
+					</span>
+				</div>
+				<div class="aw-card-body">
+					<h3><?php esc_html_e( 'Conferințe', 'artwave' ); ?></h3>
+					<p><?php esc_html_e( 'Conferințe și evenimente business organizate cu atenție la detalii, profesionalism și soluții personalizate pentru fiecare companie.', 'artwave' ); ?></p>
+					<a class="aw-link-more" href="https://artwaved.ro/index.php/conferinte/"><?php esc_html_e( 'Află mai multe', 'artwave' ); ?> &rarr;</a>
+				</div>
+			</article>
+        <!-- Educatie -->
+			<article class="aw-card">
+				<div class="aw-card-media">
+					<img src="<?php echo esc_url( $img . '/tineri.jpg' ); ?>" alt="<?php esc_attr_e( 'Tabere', 'artwave' ); ?>">
+					<span class="aw-card-badge">
+						<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M2 9L12 4L22 9L12 14L2 9Z"/>
+  <path d="M6 11V15C6 16.7 8.7 18 12 18C15.3 18 18 16.7 18 15V11"/>
+  <path d="M22 9V15"/>
+  <path d="M22 15C22 15.8 21.6 16.4 21 17"/></svg>
+					</span>
+				</div>
+				<div class="aw-card-body">
+					<h3><?php esc_html_e( 'Tabere & Programe pentru Tineri', 'artwave' ); ?></h3>
+					<p><?php esc_html_e( 'Susținem dezvoltarea tinerilor prin tabere, programe educaționale și experiențe interactive, organizate profesionist și adaptate fiecărei comunități sau organizații.', 'artwave' ); ?></p>
+					<a class="aw-link-more" href="https://artwaved.ro/index.php/educatie/"><?php esc_html_e( 'Află mai multe', 'artwave' ); ?> &rarr;</a>
+				</div>
+			</article>
+			
 			<!-- Retreat -->
 			<article class="aw-card">
 				<div class="aw-card-media">
@@ -100,7 +131,7 @@ $img = get_template_directory_uri() . '/assets/images';
 				<div class="aw-card-body">
 					<h3><?php esc_html_e( 'Retreat-uri', 'artwave' ); ?></h3>
 					<p><?php esc_html_e( 'Retreat-uri de wellness, dezvoltare personală sau corporate, în locații unice, în mijlocul naturii.', 'artwave' ); ?></p>
-					<a class="aw-link-more" href="#contact"><?php esc_html_e( 'Află mai multe', 'artwave' ); ?> &rarr;</a>
+					<a class="aw-link-more" href="https://artwaved.ro/index.php/retreat/"><?php esc_html_e( 'Află mai multe', 'artwave' ); ?> &rarr;</a>
 				</div>
 			</article>
 
@@ -115,7 +146,7 @@ $img = get_template_directory_uri() . '/assets/images';
 				<div class="aw-card-body">
 					<h3><?php esc_html_e( 'Festivaluri & Evenimente Speciale', 'artwave' ); ?></h3>
 					<p><?php esc_html_e( 'Suport local pentru festivaluri, evenimente tematice, lansări și proiecte speciale în Tulcea și Delta Dunării.', 'artwave' ); ?></p>
-					<a class="aw-link-more" href="#contact"><?php esc_html_e( 'Află mai multe', 'artwave' ); ?> &rarr;</a>
+					<a class="aw-link-more" href="https://artwaved.ro/index.php/festival/"><?php esc_html_e( 'Află mai multe', 'artwave' ); ?> &rarr;</a>
 				</div>
 			</article>
 		</div>
