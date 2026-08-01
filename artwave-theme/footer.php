@@ -30,11 +30,9 @@
 				} else {
 					?>
 					<ul>
-						<li><a href="#home"><?php esc_html_e( 'Home', 'artwave' ); ?></a></li>
-						<li><a href="#servicii"><?php esc_html_e( 'Servicii', 'artwave' ); ?></a></li>
-						<li><a href="#despre"><?php esc_html_e( 'Despre', 'artwave' ); ?></a></li>
-						<li><a href="#portofoliu"><?php esc_html_e( 'Portofoliu', 'artwave' ); ?></a></li>
-						<li><a href="#contact"><?php esc_html_e( 'Contact', 'artwave' ); ?></a></li>
+						<li><a href="<?php echo home_url('/#home'); ?>"><?php esc_html_e( 'Home', 'artwave' ); ?></a></li>
+						<li><a href="<?php echo home_url('/#portofoliu'); ?>"><?php esc_html_e( 'Servicii', 'artwave' ); ?></a></li>
+						<li><a href="<?php echo home_url('/#contact'); ?>"><?php esc_html_e( 'Contact', 'artwave' ); ?></a></li>
 					</ul>
 					<?php
 				}
