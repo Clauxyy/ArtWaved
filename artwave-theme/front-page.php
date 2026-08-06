@@ -175,16 +175,12 @@ $img = get_template_directory_uri() . '/assets/images';
           <p class="aw-contact-intro"><?php esc_html_e( 'Completează formularul și hai să transformăm evenimentul tău într-o experiență memorabilă în Tulcea și Delta Dunării.', 'artwave' ); ?></p>
           <ul class="aw-contact-list">
             <li>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-              <span>Strada X, Nr. Y, Tulcea</span>
-            </li>
-            <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
-              <a href="mailto:office@artwaved.ro">office@artwaved.ro</a>
+              <a href="mailto:artwave_d@yahoo.com">artwave_d@yahoo.com</a>
             </li>
             <li>
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <a href="tel:+40741234567">+40 741 234 567</a>
+              <a href="tel:+40748319391">+40 748 319 391</a>
             </li>
           </ul>
         </div>
@@ -312,20 +308,20 @@ $img = get_template_directory_uri() . '/assets/images';
           <div class="aw-form-group">
             <p class="aw-label"><?php esc_html_e( 'Ce servicii vă interesează?', 'artwave' ); ?></p>
             <div class="aw-checkbox-grid aw-services-grid">
-              <label><input type="checkbox" name="aw_services[]" value="cazare" checked> <?php esc_html_e( 'Cazare', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="sala_conferinta" checked> <?php esc_html_e( 'Sală de conferință', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="coffee_break" checked> <?php esc_html_e( 'Coffee Break', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="mic_dejun" checked> <?php esc_html_e( 'Mic dejun', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="pranz" checked> <?php esc_html_e( 'Prânz', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="cina" checked> <?php esc_html_e( 'Cină', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="cina_festiva" checked> <?php esc_html_e( 'Cină festivă', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="transport" checked> <?php esc_html_e( 'Transport', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="transfer" checked> <?php esc_html_e( 'Transfer aeroport / gară', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="excursii" checked> <?php esc_html_e( 'Excursii în Delta Dunării', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="team_building" checked> <?php esc_html_e( 'Team Building', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="activitati" checked> <?php esc_html_e( 'Activități recreative', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="logistica" checked> <?php esc_html_e( 'Logistică completă', 'artwave' ); ?></label>
-              <label><input type="checkbox" name="aw_services[]" value="coordonare" checked> <?php esc_html_e( 'Coordonare în timpul evenimentului', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="cazare"> <?php esc_html_e( 'Cazare', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="sala_conferinta"> <?php esc_html_e( 'Sală de conferință', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="coffee_break"> <?php esc_html_e( 'Coffee Break', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="mic_dejun"> <?php esc_html_e( 'Mic dejun', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="pranz"> <?php esc_html_e( 'Prânz', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="cina" cheed> <?php esc_html_e( 'Cină', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="cina_festiva"> <?php esc_html_e( 'Cină festivă', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="transport"> <?php esc_html_e( 'Transport', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="transfer"> <?php esc_html_e( 'Transfer aeroport / gară', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="excursii"> <?php esc_html_e( 'Excursii în Delta Dunării', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="team_building"> <?php esc_html_e( 'Team Building', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="activitati"> <?php esc_html_e( 'Activități recreative', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="logistica"> <?php esc_html_e( 'Logistică completă', 'artwave' ); ?></label>
+              <label><input type="checkbox" name="aw_services[]" value="coordonare"> <?php esc_html_e( 'Coordonare în timpul evenimentului', 'artwave' ); ?></label>
               <div class="aw-checkbox-option">
                 <label>
                   <input type="checkbox" name="aw_services[]" value="altceva" class="aw-toggle-conditional">
