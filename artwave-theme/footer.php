@@ -12,7 +12,7 @@
 		<div class="aw-footer-inner">
 			<a class="aw-logo" href="">
 				<img src="https://artwaved.ro/wp-content/uploads/2026/07/logo-3.png" class="aw-logo-img">
-				<span>ARTWAVE</span>
+				<span>ARTWAVED</span>
 			</a>
 
 			<nav class="aw-footer-nav" aria-label="<?php esc_attr_e( 'Footer', 'artwave' ); ?>">
@@ -40,13 +40,13 @@
 			</nav>
 
 			<div class="aw-social">
-				<a href="#" aria-label="Facebook">
+				<a href="https://www.facebook.com/people/Art-Wave/61587809411919/" aria-label="Facebook">
 					<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.1h-3.1V8.9c0-.9.25-1.5 1.55-1.5H17V4.6c-.29-.04-1.3-.12-2.46-.12-2.43 0-4.09 1.48-4.09 4.21v2.35H7.7V14h2.75v8z"/></svg>
 				</a>
 				<a href="#" aria-label="Instagram">
 					<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
 				</a>
-				<a href="#" aria-label="LinkedIn">
+				<a href="https://www.linkedin.com/in/art-wave-logistic-4b472b421?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn">
 					<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.94 5a1.94 1.94 0 1 1-3.88 0 1.94 1.94 0 0 1 3.88 0zM3.4 8.4h3.1V21H3.4zM9.3 8.4h2.97v1.72h.04c.41-.78 1.42-1.6 2.93-1.6 3.13 0 3.71 2.06 3.71 4.74V21h-3.1v-5.6c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95V21H9.3z"/></svg>
 				</a>
 			</div>
