@@ -71,186 +71,131 @@ function artwave_assets() {
 add_action( 'wp_enqueue_scripts', 'artwave_assets' );
 
 /**
- * Fallback menu used when no menu is assigned to the "primary" location.
- */
-/**
  * Procesează formularul de contact și trimite email
  */
 function artwave_handle_contact_form() {
-    // Verifică dacă formularul a fost trimis
-    if ( $_SERVER['REQUEST_METHOD'] !== 'POST' || ! isset( $_POST['aw_name'] ) ) {
-        return;
-    }
+	// Verifică dacă formularul a fost trimis
+	if ( $_SERVER['REQUEST_METHOD'] !== 'POST' || ! isset( $_POST['aw_name'] ) ) {
+		return;
+	}
 
-    // Verifică nonce pentru securitate
-    if ( ! isset( $_POST['aw_contact_nonce'] ) || ! wp_verify_nonce( $_POST['aw_contact_nonce'], 'aw_contact_form' ) ) {
-        wp_die( 'Cerere invalidă.' );
-    }
+	// Verifică nonce
+	if ( ! isset( $_POST['aw_contact_nonce'] ) || ! wp_verify_nonce( $_POST['aw_contact_nonce'], 'aw_contact_form' ) ) {
+		wp_die( 'Cerere invalidă.' );
+	}
 
-    // Sanitizează și validează câmpurile obligatorii
-    $name    = sanitize_text_field( $_POST['aw_name'] ?? '' );
-    $email   = sanitize_email( $_POST['aw_email'] ?? '' );
-    $phone   = sanitize_text_field( $_POST['aw_phone'] ?? '' );
-    $company = sanitize_text_field( $_POST['aw_company'] ?? '' );
-    $position = sanitize_text_field( $_POST['aw_position'] ?? '' );
+	// Sanitizează câmpurile
+	$name    = sanitize_text_field( $_POST['aw_name'] ?? '' );
+	$email   = sanitize_email( $_POST['aw_email'] ?? '' );
+	$phone   = sanitize_text_field( $_POST['aw_phone'] ?? '' );
+	$company = sanitize_text_field( $_POST['aw_company'] ?? '' );
+	$position = sanitize_text_field( $_POST['aw_position'] ?? '' );
+	$event_type  = isset( $_POST['aw_event_type'] ) ? array_map( 'sanitize_text_field', (array) $_POST['aw_event_type'] ) : array();
+	$objective   = isset( $_POST['aw_objective'] ) ? array_map( 'sanitize_text_field', (array) $_POST['aw_objective'] ) : array();
+	$services    = isset( $_POST['aw_services'] ) ? array_map( 'sanitize_text_field', (array) $_POST['aw_services'] ) : array();
+	$priorities  = isset( $_POST['aw_priorities'] ) ? array_map( 'sanitize_text_field', (array) $_POST['aw_priorities'] ) : array();
+	$date        = sanitize_text_field( $_POST['aw_date'] ?? '' );
+	$duration    = sanitize_text_field( $_POST['aw_duration'] ?? '' );
+	$participants = sanitize_text_field( $_POST['aw_participants'] ?? '' );
+	$experience  = sanitize_text_field( $_POST['aw_experience'] ?? '' );
+	$message     = sanitize_textarea_field( $_POST['aw_message'] ?? '' );
+	$event_type_other   = sanitize_text_field( $_POST['aw_event_type_other'] ?? '' );
+	$objective_other    = sanitize_text_field( $_POST['aw_objective_other'] ?? '' );
+	$services_other     = sanitize_text_field( $_POST['aw_services_other'] ?? '' );
+	$priorities_other   = sanitize_text_field( $_POST['aw_priorities_other'] ?? '' );
 
-    if ( empty( $name ) || empty( $email ) || empty( $phone ) ) {
-        wp_die( 'Toate câmpurile obligatorii trebuie completate.' );
-    }
+	// Validare
+	$errors = array();
+	if ( empty( $name ) ) {
+		$errors[] = 'Numele și prenumele sunt obligatorii.';
+	}
+	if ( empty( $email ) || ! is_email( $email ) ) {
+		$errors[] = 'Adresa de email este invalidă.';
+	}
+	if ( empty( $phone ) ) {
+		$errors[] = 'Numărul de telefon este obligatoriu.';
+	}
 
-    // Colectează datele formularului
-    $event_type  = isset( $_POST['aw_event_type'] ) ? array_map( 'sanitize_text_field', (array) $_POST['aw_event_type'] ) : array();
-    $objective   = isset( $_POST['aw_objective'] ) ? array_map( 'sanitize_text_field', (array) $_POST['aw_objective'] ) : array();
-    $services    = isset( $_POST['aw_services'] ) ? array_map( 'sanitize_text_field', (array) $_POST['aw_services'] ) : array();
-    $priorities  = isset( $_POST['aw_priorities'] ) ? array_map( 'sanitize_text_field', (array) $_POST['aw_priorities'] ) : array();
+	// Dacă există erori, stochează mesajul și redirecționează la URL curat
+	if ( ! empty( $errors ) ) {
+		$error_msg = implode( ' ', $errors );
+		set_transient( 'aw_contact_error', $error_msg, 60 );
+		set_transient( 'aw_contact_status', 'error', 60 );
 
-    $date        = sanitize_text_field( $_POST['aw_date'] ?? '' );
-    $duration    = sanitize_text_field( $_POST['aw_duration'] ?? '' );
-    $participants = sanitize_text_field( $_POST['aw_participants'] ?? '' );
-    $experience  = sanitize_text_field( $_POST['aw_experience'] ?? '' );
-    $message     = sanitize_textarea_field( $_POST['aw_message'] ?? '' );
+		$clean_url = remove_query_arg( array( 'aw_status', 'aw_message' ), wp_get_referer() );
+		wp_redirect( $clean_url . '#contact' );
+		exit;
+	}
 
-    // Câmpuri "Altul" / "Altceva"
-    $event_type_other   = sanitize_text_field( $_POST['aw_event_type_other'] ?? '' );
-    $objective_other    = sanitize_text_field( $_POST['aw_objective_other'] ?? '' );
-    $services_other     = sanitize_text_field( $_POST['aw_services_other'] ?? '' );
-    $priorities_other   = sanitize_text_field( $_POST['aw_priorities_other'] ?? '' );
+	// Construiește mesajul email
+	$subject = 'Cerere eveniment - ArtWave';
+	$body = "Nouă cerere primită de pe site-ul ArtWave.\n\n";
+	$body .= "--- DATE DE CONTACT ---\n";
+	$body .= "Nume: $name\n";
+	$body .= "Companie: $company\n";
+	$body .= "Funcție: $position\n";
+	$body .= "Telefon: $phone\n";
+	$body .= "Email: $email\n\n";
 
-    // === FUNCȚIE DE FORMATARE ===
-    function aw_format_label( $value, $type = '' ) {
-        $labels = array(
-            // Tip eveniment
-            'conferinta'    => 'Conferință',
-            'workshop'      => 'Workshop',
-            'team_building' => 'Team Building',
-            'retreat'       => 'Retreat',
-            'corporate'     => 'Eveniment Corporate',
-            'management'    => 'Întâlnire de management',
-            'lansare'       => 'Lansare produs',
-            'altul'         => 'Altul',
-            // Obiectiv
-            'educatie'      => 'Educație',
-            'networking'    => 'Networking',
-            'motivare'      => 'Motivarea echipei',
-            'relaxare'      => 'Relaxare',
-            'consolidare'   => 'Consolidarea echipei',
-            'lansare'       => 'Lansare',
-            // Servicii
-            'cazare'                => 'Cazare',
-            'sala_conferinta'       => 'Sală de conferință',
-            'coffee_break'          => 'Coffee Break',
-            'mic_dejun'             => 'Mic dejun',
-            'pranz'                 => 'Prânz',
-            'cina'                  => 'Cină',
-            'cina_festiva'          => 'Cină festivă',
-            'transport'             => 'Transport',
-            'transfer'              => 'Transfer aeroport / gară',
-            'excursii'              => 'Excursii în Delta Dunării',
-            'activitati'            => 'Activități recreative',
-            'logistica'             => 'Logistică completă',
-            'coordonare'            => 'Coordonare în timpul evenimentului',
-            'altceva'               => 'Altceva',
-            // Priorități
-            'locatia'               => 'Locația',
-            'sala'                  => 'Sala de conferință',
-            'cazarea'               => 'Cazarea',
-            'mancarea'              => 'Mâncarea',
-            'experientele'          => 'Experiențele',
-            'bugetul'               => 'Bugetul',
-            'relaxarea'             => 'Relaxarea',
-            'networking_ul'         => 'Networking-ul',
-            // Durată
-            '1_zi'          => 'O zi',
-            '2_zile'        => 'Două zile',
-            '3_zile'        => 'Trei zile',
-            'peste_3'       => 'Peste trei zile',
-            // Participanți
-            'pana_la_20'    => 'până la 20',
-            '20_50'         => '20–50',
-            '50_100'        => '50–100',
-            '100_200'       => '100–200',
-            'peste_200'     => 'peste 200',
-            // Experiență
-            'premium'       => 'Premium',
-            'echilibrata'   => 'Echilibrată',
-            'eficienta_cost'=> 'Cea mai eficientă din punct de vedere al costurilor',
-        );
+	$body .= "--- DETALII EVENIMENT ---\n";
+	$body .= "Tip eveniment: " . ( ! empty( $event_type ) ? implode( ', ', $event_type ) : 'Neselectat' );
+	if ( ! empty( $event_type_other ) ) {
+		$body .= " (Altul: $event_type_other)";
+	}
+	$body .= "\n";
 
-        // Dacă valoarea există în array, returnează eticheta, altfel returnează valoarea originală
-        return isset( $labels[ $value ] ) ? $labels[ $value ] : $value;
-    }
+	$body .= "Obiectiv: " . ( ! empty( $objective ) ? implode( ', ', $objective ) : 'Neselectat' );
+	if ( ! empty( $objective_other ) ) {
+		$body .= " (Altul: $objective_other)";
+	}
+	$body .= "\n";
 
-    // Formatează array-urile
-    $event_type_formatted = array_map( 'aw_format_label', $event_type );
-    $objective_formatted  = array_map( 'aw_format_label', $objective );
-    $services_formatted   = array_map( 'aw_format_label', $services );
-    $priorities_formatted = array_map( 'aw_format_label', $priorities );
-    $duration_formatted   = aw_format_label( $duration );
-    $participants_formatted = aw_format_label( $participants );
-    $experience_formatted = aw_format_label( $experience );
+	$body .= "Perioadă: $date\n";
+	// Formatează durata și participanții – înlocuiește underscore cu spațiu
+	$duration_display = str_replace( '_', ' ', $duration );
+	$participants_display = str_replace( '_', ' ', $participants );
+	$body .= "Durată: $duration_display\n";
+	$body .= "Număr participanți: $participants_display\n\n";
 
-    // Construiește mesajul email
-    $subject = 'Cerere eveniment - ArtWave';
+	$body .= "--- SERVICII DORITE ---\n";
+	$body .= ( ! empty( $services ) ? implode( ', ', $services ) : 'Neselectat' );
+	if ( ! empty( $services_other ) ) {
+		$body .= " (Altceva: $services_other)";
+	}
+	$body .= "\n\n";
 
-    $body = "Nouă cerere primită de pe site-ul ArtWave.\n\n";
-    $body .= "--- DATE DE CONTACT ---\n";
-    $body .= "Nume: $name\n";
-    $body .= "Companie: $company\n";
-    $body .= "Funcție: $position\n";
-    $body .= "Telefon: $phone\n";
-    $body .= "Email: $email\n\n";
+	$body .= "Experiență dorită: $experience\n\n";
 
-    $body .= "--- DETALII EVENIMENT ---\n";
-    $body .= "Tip eveniment: " . ( ! empty( $event_type_formatted ) ? implode( ', ', $event_type_formatted ) : 'Neselectat' );
-    if ( ! empty( $event_type_other ) ) {
-        $body .= " (Altul: $event_type_other)";
-    }
-    $body .= "\n";
+	$body .= "--- PRIORITĂȚI ---\n";
+	$body .= ( ! empty( $priorities ) ? implode( ', ', $priorities ) : 'Neselectat' );
+	if ( ! empty( $priorities_other ) ) {
+		$body .= " (Altceva: $priorities_other)";
+	}
+	$body .= "\n\n";
 
-    $body .= "Obiectiv: " . ( ! empty( $objective_formatted ) ? implode( ', ', $objective_formatted ) : 'Neselectat' );
-    if ( ! empty( $objective_other ) ) {
-        $body .= " (Altul: $objective_other)";
-    }
-    $body .= "\n";
+	$body .= "--- MESAJ ---\n";
+	$body .= ( ! empty( $message ) ? $message : 'Niciun mesaj suplimentar.' );
 
-    $body .= "Perioadă: $date\n";
-    $body .= "Durată: $duration_formatted\n";
-    $body .= "Număr participanți: $participants_formatted\n\n";
+	// Destinatar
+	$to = 'artwave_d@yahoo.com'; // Înlocuiește cu emailul tău
 
-    $body .= "--- SERVICII DORITE ---\n";
-    $body .= ( ! empty( $services_formatted ) ? implode( ', ', $services_formatted ) : 'Neselectat' );
-    if ( ! empty( $services_other ) ) {
-        $body .= " (Altceva: $services_other)";
-    }
-    $body .= "\n\n";
+	// Headere
+	$headers = array( 'Content-Type: text/plain; charset=UTF-8' );
 
-    $body .= "Experiență dorită: $experience_formatted\n\n";
+	// Trimite email
+	$sent = wp_mail( $to, $subject, $body, $headers );
 
-    $body .= "--- PRIORITĂȚI ---\n";
-    $body .= ( ! empty( $priorities_formatted ) ? implode( ', ', $priorities_formatted ) : 'Neselectat' );
-    if ( ! empty( $priorities_other ) ) {
-        $body .= " (Altceva: $priorities_other)";
-    }
-    $body .= "\n\n";
+	// Setează transient pentru succes/eroare și redirecționează
+	if ( $sent ) {
+		set_transient( 'aw_contact_success', true, 60 );
+		set_transient( 'aw_contact_status', 'success', 60 );
+	} else {
+		set_transient( 'aw_contact_error', 'Eroare la trimiterea emailului. Te rugăm să încerci din nou.', 60 );
+		set_transient( 'aw_contact_status', 'error', 60 );
+	}
 
-    $body .= "--- MESAJ ---\n";
-    $body .= ( ! empty( $message ) ? $message : 'Niciun mesaj suplimentar.' );
-
-    // Destinatar - înlocuiește cu adresa ta de email
-    $to = 'artwave_d@yahoo.com';
-
-    // Headere
-    $headers = array( 'Content-Type: text/plain; charset=UTF-8' );
-
-    // Trimite email
-    $sent = wp_mail( $to, $subject, $body, $headers );
-
-    // Redirecționează cu mesaj de succes/eroare
-    if ( $sent ) {
-        wp_redirect( add_query_arg( 'aw_status', 'success', wp_get_referer() ) . '#contact' );
-    } else {
-        wp_redirect( add_query_arg( 'aw_status', 'error', wp_get_referer() ) . '#contact' );
-    }
-    exit;
+	$clean_url = remove_query_arg( array( 'aw_status', 'aw_message' ), wp_get_referer() );
+	wp_redirect( $clean_url . '#contact' );
+	exit;
 }
 add_action( 'init', 'artwave_handle_contact_form' );

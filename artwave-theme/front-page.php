@@ -153,16 +153,41 @@ $img = get_template_directory_uri() . '/assets/images';
 	</div>
 </section>
 
-<!-- ============================ CONTACT ============================ --><!-- ============================================================
-     Contact
-     ============================================================ -->
-<!-- ============================================================
-     Contact
-     ============================================================ -->
+<!-- ============================ CONTACT ============================ -->
 <section class="aw-contact" id="contact">
-  <div class="aw-container">
-    <form class="aw-form" action="#" method="post" novalidate>
-		<?php wp_nonce_field( 'aw_contact_form', 'aw_contact_nonce' ); ?>
+	<?php
+	// Preia statusul din transient
+	$status = get_transient( 'aw_contact_status' );
+	$error_message = get_transient( 'aw_contact_error' );
+	$success = get_transient( 'aw_contact_success' );
+
+	if ( $status || $error_message || $success ) {
+		// Șterge transientele după citire
+		delete_transient( 'aw_contact_status' );
+		delete_transient( 'aw_contact_error' );
+		delete_transient( 'aw_contact_success' );
+		
+		$status_class = $success ? 'success' : 'error';
+		?>
+		<div class="aw-notice aw-notice-<?php echo esc_attr( $status_class ); ?>">
+			<div class="aw-container">
+				<?php if ( $success ) : ?>
+					<p>✅ Cererea a fost trimisă cu succes! Vom reveni în cel mai scurt timp.</p>
+				<?php else : ?>
+					<p>❌ A apărut o eroare la trimitere. Te rugăm să încerci din nou.</p>
+					<?php if ( $error_message ) : ?>
+						<p><?php echo esc_html( $error_message ); ?></p>
+					<?php endif; ?>
+				<?php endif; ?>
+			</div>
+		</div>
+		<?php
+	}
+	?>
+
+	<div class="aw-container">
+		<form class="aw-form" action="#" method="post" novalidate>
+			<?php wp_nonce_field( 'aw_contact_form', 'aw_contact_nonce' ); ?>
       <!-- Grid intern 2x2 -->
       <div class="aw-form-grid">
 
@@ -373,20 +398,11 @@ $img = get_template_directory_uri() . '/assets/images';
         </div>
 		<!-- După cele 4 celule existente -->
 <div class="aw-grid-cell aw-btn-cell">
-  <button type="submit" class="aw-btn"><?php esc_html_e( 'Trimite cererea', 'artwave' ); ?></button>
-</div>
-		  <?php if ( isset( $_GET['aw_status'] ) ) : ?>
-    <div class="aw-notice aw-notice-<?php echo esc_attr( $_GET['aw_status'] ); ?>">
-        <?php if ( $_GET['aw_status'] === 'success' ) : ?>
-            <p>✅ Cererea a fost trimisă cu succes! Vom reveni în cel mai scurt timp.</p>
-        <?php else : ?>
-            <p>❌ A apărut o eroare la trimitere. Te rugăm să încerci din nou.</p>
-        <?php endif; ?>
-    </div>
-<?php endif; ?>
-      </div><!-- /aw-form-grid -->
-    </form>
-  </div>
+					<button type="submit" class="aw-btn"><?php esc_html_e( 'Trimite cererea', 'artwave' ); ?></button>
+				</div>
+			</div><!-- /aw-form-grid -->
+		</form>
+	</div>
 </section>
 
 <?php
