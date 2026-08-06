@@ -199,3 +199,20 @@ function artwave_handle_contact_form() {
 	exit;
 }
 add_action( 'init', 'artwave_handle_contact_form' );
+
+/**
+ * Elimină clasele active pentru linkul „Contact” din meniul principal.
+ */
+add_filter( 'nav_menu_css_class', function( $classes, $item, $args ) {
+    // Doar pentru meniul primar (theme_location = 'primary')
+    if ( $args->theme_location === 'primary' ) {
+        // Verifică dacă elementul de meniu este cel pentru pagina „Contact”
+        // Poți folosi slug-ul paginii sau ID-ul
+        if ( $item->post_name === 'contact' || $item->title === 'Contact' ) {
+            // Elimină clasele care activează stilul
+            $classes = array_diff( $classes, array( 'current-menu-item', 'current_page_item', 'is-active' ) );
+        }
+    }
+    return $classes;
+}, 10, 3 );
+

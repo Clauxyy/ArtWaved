@@ -118,13 +118,10 @@ h1, h2, h3, h4 {
    Header / navigation
    ============================================================ */
 .aw-header {
-  /* position: absolute; */        /* sau fixed, după cum ai nevoie */
-  /* top: 0; */
-  /* left: 0; */
-  /* right: 0; */
-  /* z-index: 50; */
-  background: var(--aw-bg);  /* negru (#0c0c0c) */
-  width: 100%;               /* asigură lățime completă */
+  position: relative;   /* adaugă asta */
+  z-index: 100;         /* sau 50, dar asigură-te că e mai mare decât hero-ul */
+  background: var(--aw-bg);
+  width: 100%;
 }
 
 .aw-header-inner {
